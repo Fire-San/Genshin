@@ -57,6 +57,15 @@ header {
 }
 
 
+header {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+
 .txt {
 	display: flex;
 	align-items: center;
@@ -177,7 +186,7 @@ a {
 
 
 
-div#perso {
+#perso {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -189,158 +198,30 @@ div li a {
 }
 
 
-div#Anemo ul {
+div > div ul {
 	margin: 0;
 	padding: 0;
 	width: 7em;
+	background-color: rgba(0, 0, 0, 0.3);
 }
 
-div#Anemo li {
+div > div li {
 	position: relative;
 	list-style: none;
 	margin: 0;
-	background-color: rgba(0, 0, 0, 0.3);
 	padding: 0.25em 0 0.25em 0.5em;
 }
 
-div#Anemo li:hover {
-	background: red;
+div > div li:hover {
+	background: rgba(0, 0, 0, 0.7);
+	border-radius: 50px 50px 50px 50px;
+	transition: 200ms;
 }
 
-div#Anemo li a {
+div > div li a {
 	text-decoration: none;
 	width: 100%;
 }
-
-
-
-div#Pyro ul {
-	margin: 0;
-	padding: 0;
-	width: 7em;
-}
-
-div#Pyro li {
-	position: relative;
-	list-style: none;
-	margin: 0;
-	background-color: rgba(0, 0, 0, 0.3);
-	padding: 0.25em 0 0.25em 0.5em;
-}
-
-div#Pyro li:hover {
-	background: red;
-}
-
-div#Pyro li a {
-	text-decoration: none;
-	width: 100%;
-}
-
-
-
-div#Electro ul {
-	margin: 0;
-	padding: 0;
-	width: 7em;
-}
-
-div#Electro li {
-	position: relative;
-	list-style: none;
-	margin: 0;
-	background-color: rgba(0, 0, 0, 0.3);
-	padding: 0.25em 0 0.25em 0.5em;
-}
-
-div#Electro li:hover {
-	background: red;
-}
-
-div#Electro li a {
-
-	text-decoration: none;
-	width: 100%;
-}
-
-
-
-div#Cryo ul {
-	margin: 0;
-	padding: 0;
-	width: 7em;
-}
-
-div#Cryo li {
-	position: relative;
-	list-style: none;
-	margin: 0;
-	background-color: rgba(0, 0, 0, 0.3);
-	padding: 0.25em 0 0.25em 0.5em;
-}
-
-div#Cryo li:hover {
-	background: red;
-}
-
-div#Cryo li a {
-
-	text-decoration: none;
-	width: 100%;
-}
-
-
-
-div#Geo ul {
-	margin: 0;
-	padding: 0;
-	width: 7em;
-}
-
-div#Geo li {
-	position: relative;
-	list-style: none;
-	margin: 0;
-	background-color: rgba(0, 0, 0, 0.3);
-	padding: 0.25em 0 0.25em 0.5em;
-}
-
-div#Geo li:hover {
-	background: red;
-}
-
-div#Geo li a {
-
-	text-decoration: none;
-	width: 100%;
-}
-
-
-
-div#Hydro ul {
-	margin: 0;
-	padding: 0;
-	width: 7em;
-}
-
-div#Hydro li {
-	position: relative;
-	list-style: none;
-	margin: 0;
-	background-color: rgba(0, 0, 0, 0.3);
-	padding: 0.25em 0 0.25em 0.5em;
-}
-
-div#Hydro li:hover {
-	background: red;
-}
-
-div#Hydro li a {
-
-	text-decoration: none;
-	width: 100%;
-}
-
 
 
 /*img element*/
