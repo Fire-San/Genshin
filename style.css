@@ -1,0 +1,370 @@
+*[href=""] {
+	color: red;
+}
+
+body {
+	color: black;
+	background-image: url("https://www.journaldugeek.com/content/uploads/2021/06/genshin-impact-mihoyo.jpg");
+	z-index: -7;
+	user-select: none;
+}
+
+.header {
+    border-bottom: 1px solid;
+}
+
+.header h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.header img {
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+.header1 h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.header1 img {
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+.txt {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	position: absolute;
+    left: 50%;
+    top: 8vh;
+    transform: translate(-50%, 0);
+}
+
+.arte {
+	display: flex;
+	justify-content: center;
+}
+
+.elev {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	position: absolute;
+    left: 50%;
+    top: 29.5vh;
+    transform: translate(-50%, 0);
+}
+
+/*bouton retour*/
+
+div#retour {
+	float: left;
+	width: 7em;
+	margin: -1px 0 0 -1px;
+	border-right: 1px solid;
+	border-bottom: 1px solid;
+	border-left: 1px solid;
+}
+
+div#retour :hover {
+	background: red;
+}
+
+/*menu principal*/
+
+div#menu {
+	float: left;
+	width: 7em;
+	margin: -1px 0 0 -1px;
+	border-right: 1px solid;
+}
+
+div#menu ul {
+	margin: 0;
+	padding: 0;
+	width: 7em;
+}
+
+div#menu li {
+	position: relative;
+	list-style: none;
+	margin: 0;
+}
+
+div#menu li:hover {
+	background: red;
+}
+
+div#menu li a {
+    color: black;
+	display: block;
+	padding: 0.25em 0 0.25em 0.5em;
+	text-decoration: none;
+	width: 6.5em;
+}
+
+div#menu>ul a {
+	width: auto;
+}
+
+div#menu ul ul {
+	position: absolute;
+	top: 0;
+	left: 7em;
+	display: none;
+}
+
+/*menu perso (elevation/artefact)*/
+
+div#menu1 {
+	float: left;
+	width: 7em;
+	margin: -275px 0;
+}
+
+div#menu1 ul {
+	margin: 0;
+	padding: 0;
+	width: 7em;
+}
+
+div#menu1 li {
+	position: absolute;
+	list-style: none;
+	margin: 0;
+	background-color: rgb(255, 255, 255, 0.3);
+}
+
+div#menu1 li:hover {
+	background: red;
+}
+
+div#menu1 li a {
+    color: black;
+	display: block;
+	padding: 0.25em 0 0.25em 0.5em;
+	text-decoration: none;
+	width: 3.5em;
+}
+
+
+
+/*div element*/
+
+a {
+	display: flex;
+	align-self: center;
+	justify-content: center;
+}
+
+
+
+div#perso {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 10vh;
+}
+
+div li a {
+	color: white;
+}
+
+
+div#Anemo ul {
+	margin: 0;
+	padding: 0;
+	width: 7em;
+}
+
+div#Anemo li {
+	position: relative;
+	list-style: none;
+	margin: 0;
+	background-color: rgba(0, 0, 0, 0.3);
+	padding: 0.25em 0 0.25em 0.5em;
+}
+
+div#Anemo li:hover {
+	background: red;
+}
+
+div#Anemo li a {
+	text-decoration: none;
+	width: 100%;
+}
+
+
+
+div#Pyro ul {
+	margin: 0;
+	padding: 0;
+	width: 7em;
+}
+
+div#Pyro li {
+	position: relative;
+	list-style: none;
+	margin: 0;
+	background-color: rgba(0, 0, 0, 0.3);
+	padding: 0.25em 0 0.25em 0.5em;
+}
+
+div#Pyro li:hover {
+	background: red;
+}
+
+div#Pyro li a {
+	text-decoration: none;
+	width: 100%;
+}
+
+
+
+div#Electro ul {
+	margin: 0;
+	padding: 0;
+	width: 7em;
+}
+
+div#Electro li {
+	position: relative;
+	list-style: none;
+	margin: 0;
+	background-color: rgba(0, 0, 0, 0.3);
+	padding: 0.25em 0 0.25em 0.5em;
+}
+
+div#Electro li:hover {
+	background: red;
+}
+
+div#Electro li a {
+
+	text-decoration: none;
+	width: 100%;
+}
+
+
+
+div#Cryo ul {
+	margin: 0;
+	padding: 0;
+	width: 7em;
+}
+
+div#Cryo li {
+	position: relative;
+	list-style: none;
+	margin: 0;
+	background-color: rgba(0, 0, 0, 0.3);
+	padding: 0.25em 0 0.25em 0.5em;
+}
+
+div#Cryo li:hover {
+	background: red;
+}
+
+div#Cryo li a {
+
+	text-decoration: none;
+	width: 100%;
+}
+
+
+
+div#Geo ul {
+	margin: 0;
+	padding: 0;
+	width: 7em;
+}
+
+div#Geo li {
+	position: relative;
+	list-style: none;
+	margin: 0;
+	background-color: rgba(0, 0, 0, 0.3);
+	padding: 0.25em 0 0.25em 0.5em;
+}
+
+div#Geo li:hover {
+	background: red;
+}
+
+div#Geo li a {
+
+	text-decoration: none;
+	width: 100%;
+}
+
+
+
+div#Hydro ul {
+	margin: 0;
+	padding: 0;
+	width: 7em;
+}
+
+div#Hydro li {
+	position: relative;
+	list-style: none;
+	margin: 0;
+	background-color: rgba(0, 0, 0, 0.3);
+	padding: 0.25em 0 0.25em 0.5em;
+}
+
+div#Hydro li:hover {
+	background: red;
+}
+
+div#Hydro li a {
+
+	text-decoration: none;
+	width: 100%;
+}
+
+
+
+/*img element*/
+
+#Anemo, #Pyro, #Electro, #Cryo, #Geo, #Hydro {
+	position: relative;
+	height: auto;
+}
+
+#Anemo::before, #Pyro::before, #Electro::before, #Cryo::before, #Geo::before, #Hydro::before {
+	content: "";
+	position: absolute;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 70px;
+	height: 70px;
+	left: 50%;
+	top: -80px;
+	border-radius: 100%;
+	transform: translate(-50%, 0);
+}
+
+#Anemo::before {
+	background-image: url("https://www.genshin-impact.fr/wp-content/uploads/2020/07/UI_Icon_Wind.png%22");
+}
+#Pyro::before {
+	background-image: url("https://www.genshin-impact.fr/wp-content/uploads/2020/07/UI_Icon_Fire.png%22");
+}
+#Electro::before {
+	background-image: url("https://www.genshin-impact.fr/wp-content/uploads/2020/07/UI_Icon_Electric.png");
+}
+#Cryo::before {
+	background-image: url("https://www.genshin-impact.fr/wp-content/uploads/2020/07/UI_Icon_Ice.png%22");
+}
+#Geo::before {
+	background-image: url("https://www.genshin-impact.fr/wp-content/uploads/2020/07/UI_Icon_Rock.png%22");
+}
+#Hydro::before {
+	background-image: url("https://www.genshin-impact.fr/wp-content/uploads/2020/07/UI_Icon_Water.png%22");
+}
