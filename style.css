@@ -10,9 +10,6 @@ body {
 	user-select: none;
 }
 
-header {
-	display: flex;
-}
 
 #button {
 	z-index: 1;
@@ -67,15 +64,6 @@ header {
 }
 
 
-.txt {
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	position: absolute;
-    left: 50%;
-    top: 8vh;
-    transform: translate(-50%, 0);
-}
 
 .arte {
 	display: flex;
@@ -83,98 +71,47 @@ header {
 }
 
 
-/*bouton retour*/
-
-div#retour {
-	float: left;
-	width: 7em;
-	margin: -1px 0 0 -1px;
-	border-right: 1px solid;
-	border-bottom: 1px solid;
-	border-left: 1px solid;
-}
-
-div#retour :hover {
-	background: red;
+#midlle {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: blue;
+	opacity: 50%;
+	order: 2;
+	margin-top: auto;
 }
 
 /*menu principal*/
 
-div#menu {
-	float: left;
-	width: 7em;
-	margin: -1px 0 0 -1px;
-	border-right: 1px solid;
+#menu {
+	display:flex;
+	justify-content: center;
 }
 
-div#menu ul {
-	margin: 0;
-	padding: 0;
-	width: 7em;
+#menu ul {
+	padding: 0px;
+	margin: 0px;
 }
 
-div#menu li {
-	position: relative;
+#menu li {
 	list-style: none;
-	margin: 0;
+	padding: 5px;
 }
 
-div#menu li:hover {
-	background: red;
-}
-
-div#menu li a {
-    color: black;
-	display: block;
-	padding: 0.25em 0 0.25em 0.5em;
+#menu a {
 	text-decoration: none;
-	width: 6.5em;
+	color: black;
+	margin: 5px;
+	font-size: 35px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-div#menu>ul a {
-	width: auto;
+#menu li:hover {
+	background-color: rgba(255, 255, 255, 0.30);
+	transition: 400ms;
 }
 
-div#menu ul ul {
-	position: absolute;
-	top: 0;
-	left: 7em;
-	display: none;
+#menu li:not(:last-child) {
+	border-bottom: 2px solid;
 }
-
-/*menu perso (elevation/artefact)*/
-
-div#menu1 {
-	float: left;
-	width: 7em;
-	margin: -275px 0;
-}
-
-div#menu1 ul {
-	margin: 0;
-	padding: 0;
-	width: 7em;
-}
-
-div#menu1 li {
-	position: absolute;
-	list-style: none;
-	margin: 0;
-	background-color: rgb(255, 255, 255, 0.3);
-}
-
-div#menu1 li:hover {
-	background: red;
-}
-
-div#menu1 li a {
-    color: black;
-	display: block;
-	padding: 0.25em 0 0.25em 0.5em;
-	text-decoration: none;
-	width: 3.5em;
-}
-
 
 
 /*div element*/
