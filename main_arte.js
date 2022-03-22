@@ -61,6 +61,34 @@ let artefacts = {
         "https://media.discordapp.net/attachments/954708502717272094/955934769546424320/unknown.png",
         "https://media.discordapp.net/attachments/954708502717272094/955934769751916605/unknown.png",
         "https://media.discordapp.net/attachments/954708502717272094/955934769986805770/unknown.png"
+    ],
+    "Barbara": [
+        "https://media.discordapp.net/attachments/954708502717272094/955949851303116910/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/955949852062265394/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/955949851592507513/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/955949851806400553/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/955949852288770131/unknown.png"
+    ],
+    "Kokomi": [
+        "https://media.discordapp.net/attachments/954708502717272094/955953982143086672/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/955953982382153828/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/955953982717702234/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/955953982948405278/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/955953983216828506/unknown.png"
+    ],
+    "Xingqiu": [
+        "https://media.discordapp.net/attachments/954708502717272094/955959057980743721/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/955959058383372308/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/955959058668617748/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/955959058941227038/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/955959059209674762/unknown.png"
+    ],
+    "Tartaglia": [
+        "https://media.discordapp.net/attachments/954708502717272094/955963323256545320/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/955963324149927977/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/955963324363849798/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/955963324623904798/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/955963324821045318/unknown.png"
     ]
 }
 
