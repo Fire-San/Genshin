@@ -1,217 +1,292 @@
 *[href=""] {
-	color: red;
+    color: red;
 }
 
 body {
-	margin: none;
-	color: black;
-	background-image: url("https://www.journaldugeek.com/content/uploads/2021/06/genshin-impact-mihoyo.jpg");
-	z-index: -7;
-	user-select: none;
+    margin: none;
+    color: black;
+    background-image: url("https://www.journaldugeek.com/content/uploads/2021/06/genshin-impact-mihoyo.jpg");
+    z-index: -7;
+    user-select: none;
 }
 
-
 #button {
-	z-index: 1;
-	position: absolute;
-	top: 0%;
-	left: 0%;
-	margin: 5px;
-	padding: 5px;
-	text-decoration: none;
-	color: black;
-	border: 1px solid;
-	border-radius: 50px 50px 50px 50px ;
-	font-family: Arial, Helvetica, sans-serif;
+    z-index: 1;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    border-radius: 50px 50px 50px 50px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #button:hover {
-	background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
-
 #image {
-	height: 400px;
-	width : 700px;
-	border-radius: 50px 50px 50px 50px;
-	transition: 1s;
+    height: 400px;
+    width: 700px;
+    border-radius: 50px 50px 50px 50px;
+    transition: 1s;
 }
 
 #image:hover {
-	border-radius: 0 0 0 0;
-	transition: 1s;
+    border-radius: 0 0 0 0;
+    transition: 1s;
 }
 
 #title {
-	text-decoration: underline;
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-
 #main-eleve {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #artefa {
-	flex-direction: row;
+    flex-direction: row;
 }
 
 .art {
-	width: 319px;
-	height: 411px;
+    width: 319px;
+    height: 411px;
 }
 
 #main-artef {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-
 header {
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	align-items: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .arte {
-	display: flex;
-	justify-content: center;
+    display: flex;
+    justify-content: center;
 }
-
 
 #midlle {
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	color: blue;
-	opacity: 50%;
-	order: 2;
-	margin-top: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+    opacity: 50%;
+    order: 2;
+    font-size: 70px;
+    margin-top: auto;
 }
+
 
 /*menu principal*/
 
 #menu {
-	display:flex;
-	justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 #menu ul {
-	padding: 0px;
-	margin: 0px;
+    padding: 0px;
+    margin: 0px;
 }
 
 #menu li {
-	list-style: none;
-	padding: 5px;
+    list-style: none;
+    padding: 5px;
 }
 
 #menu a {
-	text-decoration: none;
-	color: black;
-	margin: 5px;
-	font-size: 35px;
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #menu li:hover {
-	background-color: rgba(255, 255, 255, 0.30);
-	transition: 400ms;
+    background-color: rgba(255, 255, 255, 0.30);
+    transition: 400ms;
 }
 
 #menu li:not(:last-child) {
-	border-bottom: 2px solid;
+    border-bottom: 1px solid;
 }
 
 
 /*div element*/
 
 a {
-	display: flex;
-	align-self: center;
-	justify-content: center;
+    display: flex;
+    align-self: center;
+    justify-content: center;
 }
 
-
-
 #perso {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	padding-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10vh;
 }
 
 div li a {
-	color: white;
+    color: white;
 }
 
-
-div > div ul {
-	margin: 0;
-	padding: 0;
-	width: 7em;
-	background-color: rgba(0, 0, 0, 0.3);
+div>div ul {
+    margin: 0;
+    padding: 0;
+    width: 7em;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
-div > div li {
-	position: relative;
-	list-style: none;
-	margin: 0;
-	padding: 0.25em 0 0.25em 0.5em;
+div>div li {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0.25em 0 0.25em 0.5em;
 }
 
-div > div li:hover {
-	background: rgba(0, 0, 0, 0.7);
-	border-radius: 50px 50px 50px 50px;
-	transition: 200ms;
+div>div li:hover {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 50px 50px 50px 50px;
+    transition: 200ms;
 }
 
-div > div li a {
-	text-decoration: none;
-	width: 100%;
+div>div li a {
+    text-decoration: none;
+    width: 100%;
 }
 
 
 /*img element*/
 
-#Anemo, #Pyro, #Electro, #Cryo, #Geo, #Hydro {
-	position: relative;
-	height: auto;
+#Anemo,
+#Pyro,
+#Electro,
+#Cryo,
+#Geo,
+#Hydro {
+    position: relative;
+    height: auto;
 }
 
-#Anemo::before, #Pyro::before, #Electro::before, #Cryo::before, #Geo::before, #Hydro::before {
-	content: "";
-	position: absolute;
-	background-size: contain;
-	background-repeat: no-repeat;
-	width: 70px;
-	height: 70px;
-	left: 50%;
-	top: -80px;
-	border-radius: 100%;
-	transform: translate(-50%, 0);
+#Anemo::before,
+#Pyro::before,
+#Electro::before,
+#Cryo::before,
+#Geo::before,
+#Hydro::before {
+    content: "";
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    left: 50%;
+    top: -80px;
+    border-radius: 100%;
+    transform: translate(-50%, 0);
 }
 
 #Anemo::before {
-	background-image: url("https://www.genshin-impact.fr/wp-content/uploads/2020/07/UI_Icon_Wind.png%22");
+    background-image: url("https://www.genshin-impact.fr/wp-content/uploads/2020/07/UI_Icon_Wind.png%22");
 }
+
 #Pyro::before {
-	background-image: url("https://www.genshin-impact.fr/wp-content/uploads/2020/07/UI_Icon_Fire.png%22");
+    background-image: url("https://www.genshin-impact.fr/wp-content/uploads/2020/07/UI_Icon_Fire.png%22");
 }
+
 #Electro::before {
-	background-image: url("https://www.genshin-impact.fr/wp-content/uploads/2020/07/UI_Icon_Electric.png");
+    background-image: url("https://www.genshin-impact.fr/wp-content/uploads/2020/07/UI_Icon_Electric.png");
 }
+
 #Cryo::before {
-	background-image: url("https://www.genshin-impact.fr/wp-content/uploads/2020/07/UI_Icon_Ice.png%22");
+    background-image: url("https://www.genshin-impact.fr/wp-content/uploads/2020/07/UI_Icon_Ice.png%22");
 }
+
 #Geo::before {
-	background-image: url("https://www.genshin-impact.fr/wp-content/uploads/2020/07/UI_Icon_Rock.png%22");
+    background-image: url("https://www.genshin-impact.fr/wp-content/uploads/2020/07/UI_Icon_Rock.png%22");
 }
+
 #Hydro::before {
-	background-image: url("https://www.genshin-impact.fr/wp-content/uploads/2020/07/UI_Icon_Water.png%22");
+    background-image: url("https://www.genshin-impact.fr/wp-content/uploads/2020/07/UI_Icon_Water.png%22");
 }
 
 
+/*added by andinox*/
+
+.art:not(.actived) {
+    width: 0px;
+    transition: 400ms;
+}
+
+.art.actived {
+    transition: 400ms;
+}
+
+.artefa {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.after,
+.before {
+    position: relative;
+    color: white;
+    font-weight: bold;
+    font-size: 100px;
+    display: flex;
+    padding-top: 25%;
+    opacity: 70%;
+    padding-bottom: 25%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0px;
+    align-items: center;
+}
+
+.after::after,
+.before::after {
+    content: "";
+    position: absolute;
+    height: 0%;
+    width: 100%;
+    left: 0%;
+    background-color: rgba(0, 0, 0, 0.267);
+    z-index: -1;
+    transition: 400ms;
+}
+
+.after:hover::after,
+.before:hover::after {
+    height: 100%;
+    transition: 400ms;
+}
+
+#viewall {
+    font-size: 25px;
+    opacity: 40%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    transition: 400ms;
+}
+
+#viewall:hover {
+    opacity: 100%;
+    background-color: rgba(0, 0, 0, 0.335);
+    border-radius: 5%;
+    transition: 400ms;
+}
