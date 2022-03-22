@@ -38,14 +38,14 @@ let persos=
     "Ayaka":"https://media.discordapp.net/attachments/954845201967513740/955394238118514778/ayaka.jpg",
     "Beidou":"https://media.discordapp.net/attachments/954845201967513740/955394238315659324/Beidou.jpg",
     "Yanfei":"https://media.discordapp.net/attachments/954845201967513740/955394238575673374/yanfei.jpg",
-    "Kazuha","https://media.discordapp.net/attachments/954845201967513740/955394238781218906/kazuha.jpg",
-    "Kokomi","https://media.discordapp.net/attachments/954845201967513740/955394239037050890/kokmi.jpg",
-    "Thomas","https://media.discordapp.net/attachments/954845201967513740/955394400362565652/thomas.jpg",
-    "Yun-Jin","https://media.discordapp.net/attachments/954845201967513740/955394400584867950/yun-jin.jpg?width=720&height=480",
-    "Shenhe","https://media.discordapp.net/attachments/954845201967513740/955394400865894410/shenhe.jpg?width=720&height=480",
-    "Yae","https://media.discordapp.net/attachments/954845201967513740/955394401138507776/yae.jpg?width=720&height=480",
-    "Itto","https://media.discordapp.net/attachments/954845201967513740/955394401369223208/itto.jpg?width=720&height=480",
-    "Gorou","https://media.discordapp.net/attachments/954845201967513740/955394401633443900/gorou.jpg"
+    "Kazuha":"https://media.discordapp.net/attachments/954845201967513740/955394238781218906/kazuha.jpg",
+    "Kokomi":"https://media.discordapp.net/attachments/954845201967513740/955394239037050890/kokmi.jpg",
+    "Thomas":"https://media.discordapp.net/attachments/954845201967513740/955394400362565652/thomas.jpg",
+    "Yun-Jin":"https://media.discordapp.net/attachments/954845201967513740/955394400584867950/yun-jin.jpg?width=720&height=480",
+    "Shenhe":"https://media.discordapp.net/attachments/954845201967513740/955394400865894410/shenhe.jpg?width=720&height=480",
+    "Yae":"https://media.discordapp.net/attachments/954845201967513740/955394401138507776/yae.jpg?width=720&height=480",
+    "Itto":"https://media.discordapp.net/attachments/954845201967513740/955394401369223208/itto.jpg?width=720&height=480",
+    "Gorou":"https://media.discordapp.net/attachments/954845201967513740/955394401633443900/gorou.jpg"
 }
 
 let params = new URLSearchParams(document.location.search);
