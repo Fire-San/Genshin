@@ -23,7 +23,6 @@ body {
 
 #perso_img[src=""] {
     opacity: 0%;
-    transition: 400ms;
 }
 #button {
     z-index: 1;
