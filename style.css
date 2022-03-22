@@ -4,10 +4,12 @@
 
 body {
     margin: none;
-    color: black;
-    background-image: url("https://www.journaldugeek.com/content/uploads/2021/06/genshin-impact-mihoyo.jpg");
-    z-index: -7;
     user-select: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("");
+    animation-name: bg;
+    animation-iteration-count: infinite;
 }
 
 #button {
