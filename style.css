@@ -98,7 +98,7 @@ header {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: blue;
     opacity: 50%;
-    order: 2;
+    order: 0;
     font-size: 70px;
     margin-top: auto;
 }
