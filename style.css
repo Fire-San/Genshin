@@ -14,8 +14,8 @@ body {
     position: absolute;
     top: 50%;
     left: 75%;
-    width: 400px;
-    height: 700px;
+    width: 20vw;
+    height: 80vh;
     transform: translate(0px, -50%);
     border-radius: 2%;
     border: 1px solid;
@@ -303,4 +303,54 @@ div>div li a {
     background-color: rgba(0, 0, 0, 0.335);
     border-radius: 5%;
     transition: 400ms;
+}
+
+
+@media screen and (max-width: 450px) { 
+	#perso_img {
+		display: none;
+	}
+	
+	.base li a {
+		font-size: 25px;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	}
+
+	.base {
+		display: flex;
+		flex-direction: column;
+		margin: 0px;
+		align-items: center;
+		width: auto;
+	}
+
+	#perso {
+		display: flex;
+		justify-items: center;
+		flex-direction: column;
+	}
+
+	#perso div {
+		padding-top: 100px;
+		padding-left: 0px;
+	}
+
+	#Anemo::before,
+#Pyro::before,
+#Electro::before,
+#Cryo::before,
+#Geo::before,
+#Hydro::before {
+    content: "";
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    left: 50%;
+    top: 5%;
+    border-radius: 100%;
+    transform: translate(-50%, 0);
+}
+	
 }
