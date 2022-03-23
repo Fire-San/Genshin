@@ -96,6 +96,55 @@ let artefacts = {
         "https://media.discordapp.net/attachments/954708502717272094/956096961239474176/unknown.png",
         "https://media.discordapp.net/attachments/954708502717272094/956096961566605352/unknown.png",
         "https://media.discordapp.net/attachments/954708502717272094/956096961897984040/unknown.png"
+    ],
+    "Zhongli": [
+        "https://media.discordapp.net/attachments/954708502717272094/956111548835848202/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956111549062336533/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956111549288816670/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956111549498552341/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956111549750214663/unknown.png"
+    ],
+    "Itto": [
+        "https://media.discordapp.net/attachments/954708502717272094/956231697664462878/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956231697907728435/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956231698276835378/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956231698520100914/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956231698910183564/unknown.png"
+    ],
+    "Albedo": [
+        "https://media.discordapp.net/attachments/954708502717272094/956231697664462878/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956231697907728435/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956231698276835378/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956231698520100914/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956231698910183564/unknown.png"
+    ],
+    "Gorou": [
+        "https://media.discordapp.net/attachments/954708502717272094/956231697664462878/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956231697907728435/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956231698276835378/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956231698520100914/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956231698910183564/unknown.png"
+    ],
+    "Ningguang": [
+        "https://media.discordapp.net/attachments/954708502717272094/956246169200242718/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956246169586110494/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956246169883910265/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956246170173333514/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956246170437562368/unknown.png"
+    ],
+    "Noelle": [
+        "https://media.discordapp.net/attachments/954708502717272094/956256076653801552/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956256076880314408/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956256077232607242/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956256077492678676/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956256077698183168/unknown.png"
+    ],
+    "Yun-Jin": [
+        "https://media.discordapp.net/attachments/954708502717272094/956258529520545852/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956258529742827550/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956258530002894979/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956258530187431946/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956258530388762635/unknown.png"
     ]
 }
 
