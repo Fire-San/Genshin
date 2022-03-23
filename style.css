@@ -34,12 +34,13 @@ body {
     text-decoration: none;
     color: black;
     border: 1px solid;
-    border-radius: 50px 50px 50px 50px;
+    border-radius: 5%;
+	opacity: 50%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 #button:hover {
-    background-color: rgba(0, 0, 0, 0.3);
+	opacity: 100%;
 }
 
 #image {
@@ -254,6 +255,7 @@ div>div li a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+	width: ;
 }
 
 .after,
@@ -306,14 +308,47 @@ div>div li a {
 }
 
 
-@media screen and (max-width: 450px) { 
+@media screen and (max-width: 450px) {
+	.before {
+		left: -16%;
+	}
+
+	.after {
+		left: 16%;
+	}
+
+
+	#logo {
+		order: -1;
+	}
+
+	#viewall {
+		display: none;
+	}
+
 	#perso_img {
 		display: none;
 	}
+
+	#menu a {
+		color: white;
+	}
+
+	#menu li:not(:last-child) {
+		border-bottom: 1px solid white;
+	}
 	
-	.base li a {
+	.base li, .base li a {
+		width: 100%;
+		border-radius: 0% 0% 0% 0%;
 		font-size: 25px;
 		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	}
+
+	.base li a:hover {
+		padding-left: 10px;
+		padding-right: 10px;
+		border-radius: 0%;
 	}
 
 	.base {
@@ -336,21 +371,26 @@ div>div li a {
 	}
 
 	#Anemo::before,
-#Pyro::before,
-#Electro::before,
-#Cryo::before,
-#Geo::before,
-#Hydro::before {
-    content: "";
-    position: absolute;
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 70px;
-    height: 70px;
-    left: 50%;
-    top: 5%;
-    border-radius: 100%;
-    transform: translate(-50%, 0);
-}
-	
+	#Pyro::before,
+	#Electro::before,
+	#Cryo::before,
+	#Geo::before,
+	#Hydro::before {
+		content: "";
+		position: absolute;
+		background-size: contain;
+		background-repeat: no-repeat;
+		width: 70px;
+		height: 70px;
+		left: 50%;
+		top: 5%;
+		border-radius: 100%;
+		transform: translate(-50%, 0);
+	}
+	#midlle {
+		display: flex;
+		text-align: center;
+		font-size: 40px ;
+		order: 0;
+	}
 }

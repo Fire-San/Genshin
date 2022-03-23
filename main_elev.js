@@ -54,7 +54,7 @@ console.log(perso);
 const image = document.getElementById("image");
 image.setAttribute("src",persos[perso]);
 let persospace = perso.replace("_", " ");
-let title = document.getElementById("title");
+let title = document.getElementById("midlle");
 let doctitle = document.getElementsByTagName("title")[0];
 doctitle.innerHTML = persospace;
 title.innerHTML = `Élévation pour ${persospace}`;
