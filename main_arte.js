@@ -89,6 +89,13 @@ let artefacts = {
         "https://media.discordapp.net/attachments/954708502717272094/955963324363849798/unknown.png",
         "https://media.discordapp.net/attachments/954708502717272094/955963324623904798/unknown.png",
         "https://media.discordapp.net/attachments/954708502717272094/955963324821045318/unknown.png"
+    ],
+    "Mona": [
+        "https://media.discordapp.net/attachments/954708502717272094/956096960719384586/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956096960971030578/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956096961239474176/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956096961566605352/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956096961897984040/unknown.png"
     ]
 }
 
