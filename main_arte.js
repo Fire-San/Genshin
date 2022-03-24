@@ -145,6 +145,62 @@ let artefacts = {
         "https://media.discordapp.net/attachments/954708502717272094/956258530002894979/unknown.png",
         "https://media.discordapp.net/attachments/954708502717272094/956258530187431946/unknown.png",
         "https://media.discordapp.net/attachments/954708502717272094/956258530388762635/unknown.png"
+    ],
+    "Amber": [
+        "https://media.discordapp.net/attachments/954708502717272094/956547319128547368/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956547319447302185/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956547319724113920/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956547319988371486/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956547320206463026/unknown.png"
+    ],
+    "Xiangling": [
+        "https://media.discordapp.net/attachments/954708502717272094/956550045912670218/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956550046105616514/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956550046336307210/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956550046575390730/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956550046793465886/unknown.png"
+    ],
+    "Xinyan": [
+        "https://media.discordapp.net/attachments/954708502717272094/956557740338200636/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956557740665348187/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956557740933775400/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956557741206437908/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956557741479047198/unknown.png"
+    ],
+    "Thomas": [
+        "https://media.discordapp.net/attachments/954708502717272094/956571130636931152/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956571130943135775/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956571131215753266/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956571131500961852/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956571131731660850/unknown.png"
+    ],
+    "Yoimiya": [
+        "https://media.discordapp.net/attachments/954708502717272094/956582571293175848/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956582571557412905/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956582571779719218/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956582572014571580/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956582572245282826/unknown.png"
+    ],
+    "Yanfei": [
+        "https://media.discordapp.net/attachments/954708502717272094/956595130561863750/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956595130800934942/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956595131056816229/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956595131312664676/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956595131522375680/unknown.png"
+    ],
+    "Klee": [
+        "https://media.discordapp.net/attachments/954708502717272094/956595130561863750/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956595130800934942/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956595131056816229/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956595131312664676/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956595131522375680/unknown.png"
+    ],
+    "Hu Tao": [
+        "https://media.discordapp.net/attachments/954708502717272094/956613008770101298/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956613009143386132/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956613009483137074/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956613009759944714/unknown.png",
+        "https://media.discordapp.net/attachments/954708502717272094/956613010082897991/unknown.png"
     ]
 }
 
