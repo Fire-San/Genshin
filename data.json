@@ -1,4 +1,1021 @@
 {
+    "elements" : {
+        "geo" :["Noelle","Ningguang","Zhongli","Albedo","Gorou","Itto","Yun-Jin"],
+        "electro" : ["Razor","Fischl","Beidou","Lisa","Keqing","Baal","Sara","Yae","Shinobu","Dori","Cyno"],
+        "anemo" : ["Xiao","Venti","Sucrose","Jean","Kazuha","Sayu","Heizou","Nomade","Faruzan","Lynette"],
+        "feu" : ["Xiangling","Klee","Diluc","Bennett","Amber","Xinyan","Hu Tao","Yanfei","Yoimiya","Thomas","Dehya","Lyney"],
+        "glace" : ["Chongyun","Kaeya","Qiqi","Diona","Ganyu","Eula","Ayaka","Aloy","Shenhe","Rosalia","Layla","Mika","Freminet","Wriothesley"],
+        "eau" : ["Xingqiu","Barbara","Mona","Tartaglia","Kokomi","Ayato","Yelan","Nilou","Candace","Neuvillette"],
+        "dendro" : ["Tighnari","Collei","Nahida","Yaoyao","Alhaitham", "Kirara","Kaveh","Baizhu"]
+    },
+    "Elevation" : {
+        "Main" : {
+            "perso" : {
+                "nb_pierre" :  [1,9,9,6],
+                "nb_mob_drop" : [18,30,36],
+                "nb_boss" : 46,
+                "nb_fleurs" : 168,
+
+                "turquoise_vayuda" : ["i_351","i_352","i_353","i_354"],
+                "diamant_scintillant" : ["i_301","i_302","i_303","i_304"],
+                "agate_agnidus" : ["i_311","i_312","i_313","i_314"],
+                "lazurite_varunada" : ["i_321","i_322","i_323","i_324"],
+                "amethyste_vajrada" : ["i_331","i_332","i_333","i_334"],
+                "jade_shivada": ["i_341","i_342","i_343","i_344"],
+                "topaze_prithiva" : ["i_361","i_362","i_363","i_364"],
+                "emeraude_nagadus" : ["i_371","i_372","i_373","i_374"],
+
+                "blob" : ["i_21","i_22","i_23"],
+                "spectrale" : ["i_185","i_186","i_187"],
+                "masque" : ["i_31","i_32","i_33"],
+                "parchemin" : ["i_41","i_42","i_43"],
+                "pointe" : ["i_51","i_52","i_53"],
+                "insigne" : ["i_111","i_112","i_113"],
+                "insigne_p" : ["i_121","i_122","i_123"],
+                "nectar" : ["i_131","i_132","i_133"],
+                "statue" : ["i_151","i_152","i_153"],
+                "garde" : ["i_161","i_162","i_163"],
+                "chaos" : ["i_171","i_172","i_173"],
+                "pollen" : ["i_192","i_193","i_194"],
+                "bandeau" : ["i_196","i_197","i_198"],
+                "cristal" : ["i_112080","i_112081","i_112082"],
+                "engrenage" : ["i_112083","i_112084","i_112085"]
+            },
+            "comp" : {
+                "paper" : [9,63,114],
+                "boss_eb": 18,
+                "mob": [18,66,93],
+
+                "poesie": ["i_401","i_402","i_403"],
+                "ephemere" : ["i_406","i_407","i_408"],
+                "diligence" : ["i_411","i_412","i_413"],
+                "elegance" : ["i_416","i_417","i_418"],
+                "liberter" : ["i_421","i_422","i_423"],
+                "lumiere" : ["i_426","i_427","i_428"],
+                "or" : ["i_431","i_432","i_433"],
+                "prosperiter": ["i_441","i_442","i_443"],
+                "resistance": ["i_451","i_452","i_453"],
+                "admonestation": ["i_104329","i_104330","i_104331"],
+                "ingénuité": ["i_104332","i_104333","i_104334"],
+                "usage": ["i_104335","i_104336","i_104337"],
+                "equite": ["i_104338","i_104339","i_104340"],
+                "justice":["i_104341","i_104342","i_104343"],
+                "ordre":["i_104344","i_104345","i_104346"],
+
+                "blob" : ["i_21","i_22","i_23"],
+                "spectrale" : ["i_185","i_186","i_187"],
+                "masque" : ["i_31","i_32","i_33"],
+                "parchemin" : ["i_41","i_42","i_43"],
+                "pointe" : ["i_51","i_52","i_53"],
+                "insigne" : ["i_111","i_112","i_113"],
+                "insigne_p" : ["i_121","i_122","i_123"],
+                "nectar" : ["i_131","i_132","i_133"],
+                "statue" : ["i_151","i_152","i_153"],
+                "garde" : ["i_161","i_162","i_163"],
+                "chaos" : ["i_171","i_172","i_173"],
+                "pollen" : ["i_192","i_193","i_194"],
+                "bandeau" : ["i_196","i_197","i_198"],
+                "cristal" : ["i_112080","i_112081","i_112082"],
+                "engrenage" : ["i_112083","i_112084","i_112085"]
+            }
+        },
+        "Xiao" : {
+            "perso" : {
+                "pierre" : "turquoise_vayuda",
+                "mob_drop" : "blob",
+                "boss" : "i_207",
+                "fleur": "i_614"
+            },
+            "comp" : {
+                "papier" : "prosperiter",
+                "mob_drop":"blob",
+                "boss_eb" : "i_469"
+            }
+        },
+        "Venti" : {
+            "perso" : {
+                "pierre" : "turquoise_vayuda",
+                "mob_drop" : "blob",
+                "boss" : "i_205",
+                "fleur": "i_601"
+            },
+            "comp" : {
+                "papier" : "poesie",
+                "mob_drop":"blob",
+                "boss_eb" : "i_464"
+            }
+        },
+        "Sucrose" : {
+            "perso" : {
+                "pierre" : "turquoise_vayuda",
+                "mob_drop" : "nectar",
+                "boss" : "i_205",
+                "fleur": "i_612"
+            },
+            "comp" : {
+                "papier" : "liberter",
+                "mob_drop":"nectar",
+                "boss_eb" : "i_466"
+            }
+        },
+        "Jean" : {
+            "perso" : {
+                "pierre" : "turquoise_vayuda",
+                "mob_drop" : "masque",
+                "boss" : "i_205",
+                "fleur": "i_603"
+            },
+            "comp" : {
+                "papier" : "resistance",
+                "mob_drop":"masque",
+                "boss_eb" : "i_461"
+            }
+        },
+        "Kazuha" : {
+            "perso" : {
+                "pierre" : "turquoise_vayuda",
+                "mob_drop" : "insigne_p",
+                "boss" : "i_210",
+                "fleur": "i_675"
+            },
+            "comp" : {
+                "papier" : "diligence",
+                "mob_drop":"insigne_p",
+                "boss_eb" : "i_472"
+            }
+        },
+        "Sayu" : {
+            "perso" : {
+                "pierre" : "turquoise_vayuda",
+                "mob_drop" : "nectar",
+                "boss" : "i_210",
+                "fleur": "i_679"
+            },
+            "comp" : {
+                "papier" : "lumiere",
+                "mob_drop":"nectar",
+                "boss_eb" : "i_472"
+            }
+        },
+        "Heizou" : {
+            "perso" : {
+                "pierre" : "turquoise_vayuda",
+                "mob_drop" : "insigne_p",
+                "boss" : "i_486",
+                "fleur": "i_677"
+            },
+            "comp" : {
+                "papier" : "ephemere",
+                "mob_drop":"insigne_p",
+                "boss_eb" : "i_485"
+            }
+        },
+        "Nomade" : {
+            "perso" : {
+                "pierre" : "turquoise_vayuda",
+                "mob_drop" : "garde",
+                "boss" : "i_113038",
+                "fleur": "i_690"
+            },
+            "comp" : {
+                "papier" : "usage",
+                "mob_drop":"garde",
+                "boss_eb" : "i_113043"
+            }
+        },
+        "Faruzan" : {
+            "perso" : {
+                "pierre" : "turquoise_vayuda",
+                "mob_drop" : "bandeau",
+                "boss" : "i_113039",
+                "fleur": "i_101220"
+            },
+            "comp" : {
+                "papier" : "admonestation",
+                "mob_drop":"bandeau",
+                "boss_eb" : "i_113041"
+            }
+        },
+        "Lynette" : {
+            "perso" : {
+                "pierre" : "turquoise_vayuda",
+                "mob_drop" : "engrenage",
+                "boss" : "i_113049",
+                "fleur": "i_101235"
+            },
+            "comp" : {
+                "papier" : "ordre",
+                "mob_drop":"engrenage",
+                "boss_eb" : "i_113048"
+            }
+        },
+        "Xingqiu": {
+            "perso" : {
+                "pierre" : "lazurite_varunada",
+                "mob_drop": "masque",
+                "boss" : "i_202",
+                "fleur": "i_608"
+            },
+            "comp" : {
+                "papier" : "or",
+                "mob_drop":"masque",
+                "boss_eb" : "i_464"
+            }
+        },
+        "Barbara" : {
+            "perso" : {
+                "pierre" : "lazurite_varunada",
+                "mob_drop" : "parchemin",
+                "boss" : "i_202",
+                "fleur": "i_607"
+            },
+            "comp" : {
+                "papier" : "liberter",
+                "mob_drop":"parchemin",
+                "boss_eb" : "i_465"
+            }
+        },
+        "Mona" : {
+            "perso" : {
+                "pierre" : "lazurite_varunada",
+                "mob_drop" : "nectar",
+                "boss" : "i_202",
+                "fleur": "i_607"
+            },
+            "comp" : {
+                "papier" : "resistance",
+                "mob_drop":"nectar",
+                "boss_eb" : "i_465"
+            }
+        },
+        "Tartaglia" : {
+            "perso" : {
+                "pierre" : "lazurite_varunada",
+                "mob_drop" : "insigne",
+                "boss" : "i_202",
+                "fleur": "i_663"
+            },
+            "comp" : {
+                "papier" : "liberter",
+                "mob_drop":"insigne",
+                "boss_eb" : "i_468"
+            }
+        },
+        "Kokomi" : {
+            "perso" : {
+                "pierre" : "lazurite_varunada",
+                "mob_drop" : "spectrale",
+                "boss" : "i_213",
+                "fleur": "i_685"
+            },
+            "comp" : {
+                "papier" : "ephemere",
+                "mob_drop":"spectrale",
+                "boss_eb" : "i_481"
+            }
+        },
+        "Ayato" : {
+            "perso" : {
+                "pierre" : "lazurite_varunada",
+                "mob_drop" : "garde",
+                "boss" : "i_213",
+                "fleur": "i_678"
+            },
+            "comp" : {
+                "papier" : "elegance",
+                "mob_drop": "garde",
+                "boss_eb" : "i_483"
+            }
+        },
+        "Yelan" : {
+            "perso" : {
+                "pierre" : "lazurite_varunada",
+                "mob_drop" : "insigne",
+                "boss" : "i_486",
+                "fleur": "i_663"
+            },
+            "comp" : {
+                "papier" : "prosperiter",
+                "mob_drop": "insigne",
+                "boss_eb" : "i_472"
+            }
+        },
+        "Nilou" : {
+            "perso" : {
+                "pierre" : "lazurite_varunada",
+                "mob_drop" : "pollen",
+                "boss" : "i_113038",
+                "fleur": "i_101214"
+            },
+            "comp" : {
+                "papier" : "usage",
+                "mob_drop": "pollen",
+                "boss_eb" : "i_484"
+            }
+        },
+        "Candace" : {
+            "perso" : {
+                "pierre" : "lazurite_varunada",
+                "mob_drop" : "bandeau",
+                "boss" : "i_113039",
+                "fleur": "i_101220"
+            },
+            "comp" : {
+                "papier" : "admonestation",
+                "mob_drop": "bandeau",
+                "boss_eb" : "i_484"
+            }
+        },
+        "Neuvillette" : {
+            "perso" : {
+                "pierre" : "lazurite_varunada",
+                "mob_drop" : "cristal",
+                "boss" : "i_113053",
+                "fleur": "i_101237"
+            },
+            "comp" : {
+                "papier" : "equite",
+                "mob_drop": "cristal",
+                "boss_eb" : "i_113048"
+            }
+        },
+        "Razor" : {
+            "perso" : {
+                "pierre" : "amethyste_vajrada",
+                "mob_drop" : "masque",
+                "boss" : "i_203",
+                "fleur": "i_613"
+            },
+            "comp" : {
+                "papier" : "resistance",
+                "mob_drop":"masque",
+                "boss_eb" : "i_462"
+            }
+        },
+        "Fischl" : {
+            "perso" : {
+                "pierre" : "amethyste_vajrada",
+                "mob_drop" : "pointe",
+                "boss" : "i_203",
+                "fleur": "i_609"
+            },
+            "comp" : {
+                "papier" : "poesie",
+                "mob_drop": "pointe",
+                "boss_eb" : "i_466"
+            }
+        },
+        "Beidou" : {
+            "perso" : {
+                "pierre" : "amethyste_vajrada",
+                "mob_drop" : "insigne_p",
+                "boss" : "i_203",
+                "fleur": "i_606"
+            },
+            "comp" : {
+                "papier" : "or",
+                "mob_drop":"insigne_p",
+                "boss_eb" : "i_463"
+            }
+        },
+        "Lisa" : {
+            "perso" : {
+                "pierre" : "amethyste_vajrada",
+                "mob_drop" : "blob",
+                "boss" : "i_203",
+                "fleur": "i_610"
+            },
+            "comp" : {
+                "papier" : "poesie",
+                "mob_drop":"blob",
+                "boss_eb" : "i_462"
+            }
+        },
+        "Keqing" : {
+            "perso" : {
+                "pierre" : "amethyste_vajrada",
+                "mob_drop" : "nectar",
+                "boss" : "i_203",
+                "fleur" : "i_602"
+            },
+            "comp" : {
+                "papier" : "prosperiter",
+                "mob_drop":"nectar",
+                "boss_eb" : "i_465"
+            }
+        },
+        "Baal" : {
+            "perso" : {
+                "pierre" : "amethyste_vajrada",
+                "mob_drop" : "garde",
+                "boss" : "i_214",
+                "fleur": "i_686"
+            },
+            "comp" : {
+                "papier" : "lumiere",
+                "mob_drop":"garde",
+                "boss_eb" : "i_480"
+            }
+        },
+        "Sara" : {
+            "perso" : {
+                "pierre" : "amethyste_vajrada",
+                "mob_drop" : "masque",
+                "boss" : "i_214",
+                "fleur": "i_680"
+            },
+            "comp" : {
+                "papier" : "elegance",
+                "mob_drop":"masque",
+                "boss_eb" : "i_482"
+            }
+        },
+        "Yae" : {
+            "perso" : {
+                "pierre" : "amethyste_vajrada",
+                "mob_drop" : "garde",
+                "boss" : "i_216",
+                "fleur": "i_675"
+            },
+            "comp" : {
+                "papier" : "lumiere",
+                "mob_drop":"garde",
+                "boss_eb" : "i_485"
+            }
+        },
+        "Shinobu" : {
+            "perso" : {
+                "pierre" : "amethyste_vajrada",
+                "mob_drop" : "spectrale",
+                "boss" : "i_486",
+                "fleur": "i_681"
+            },
+            "comp" : {
+                "papier" : "elegance",
+                "mob_drop":"spectrale",
+                "boss_eb" : "i_484"
+            }
+        },
+        "Dori" : {
+            "perso" : {
+                "pierre" : "amethyste_vajrada",
+                "mob_drop" : "bandeau",
+                "boss" : "i_488",
+                "fleur": "i_691"
+            },
+            "comp" : {
+                "papier" : "ingénuité",
+                "mob_drop":"bandeau",
+                "boss_eb" : "i_471"
+            }
+        },
+        "Cyno" : {
+            "perso" : {
+                "pierre" : "amethyste_vajrada",
+                "mob_drop" : "parchemin",
+                "boss" : "i_488",
+                "fleur": "i_101225"
+            },
+            "comp" : {
+                "papier" : "admonestation",
+                "mob_drop":"parchemin",
+                "boss_eb" : "i_483"
+            }
+        },
+        "Xiangling" : {
+            "perso" : {
+                "pierre" : "agate_agnidus",
+                "mob_drop" : "blob",
+                "boss" : "i_201",
+                "fleur" : "i_605"
+            },
+            "comp" : {
+                "papier" : "diligence",
+                "mob_drop":"blob",
+                "boss_eb" : "i_462"
+            }
+        },
+        "Klee" : {
+            "perso" : {
+                "pierre" : "agate_agnidus",
+                "mob_drop" : "parchemin",
+                "boss" : "i_201",
+                "fleur" : "i_607"
+            },
+            "comp" : {
+                "papier" : "liberter",
+                "mob_drop":"parchemin",
+                "boss_eb" : "i_465"
+            }
+        },
+        "Diluc" : {
+            "perso" : {
+                "pierre" : "agate_agnidus",
+                "mob_drop": "insigne",
+                "boss" : "i_201",
+                "fleur": "i_609"
+            },
+            "comp" : {
+                "papier" : "resistance",
+                "mob_drop":"insigne",
+                "boss_eb" : "i_461"
+            }
+        },
+        "Bennett" : {
+            "perso" : {
+                "pierre" : "agate_agnidus",
+                "mob_drop": "insigne_p",
+                "boss" : "i_201",
+                "fleur": "i_612"
+            },
+            "comp" : {
+                "papier" : "resistance",
+                "mob_drop":"insigne_p",
+                "boss_eb" : "i_461"
+            }
+        },
+        "Amber" : {
+            "perso" : {
+                "pierre" : "agate_agnidus",
+                "mob_drop": "pointe",
+                "boss" : "i_201",
+                "fleur": "i_609"
+            },
+            "comp" : {
+                "papier" : "liberter",
+                "mob_drop":"pointe",
+                "boss_eb" : "i_463"
+            }
+        },
+        "Xinyan" : {
+            "perso" : {
+                "pierre" : "agate_agnidus",
+                "mob_drop": "insigne_p",
+                "boss" : "i_201",
+                "fleur": "i_611"
+            },
+            "comp" : {
+                "papier" : "or",
+                "mob_drop":"insigne_p",
+                "boss_eb" : "i_467"
+            }
+        },
+        "Hu Tao" : {
+            "perso" : {
+                "pierre" : "agate_agnidus",
+                "mob_drop": "nectar",
+                "boss" : "i_207",
+                "fleur": "i_608"
+            },
+            "comp" : {
+                "papier" : "diligence",
+                "mob_drop":"nectar",
+                "boss_eb" : "i_468"
+            }
+        },
+        "Yanfei" : {
+            "perso" : {
+                "pierre" : "agate_agnidus",
+                "mob_drop": "insigne_p",
+                "boss" : "i_207",
+                "fleur": "i_606"
+            },
+            "comp" : {
+                "papier" : "or",
+                "mob_drop":"insigne_p",
+                "boss_eb" : "i_471"
+            }
+        },
+        "Yoimiya" : {
+            "perso" : {
+                "pierre" : "agate_agnidus",
+                "mob_drop": "parchemin",
+                "boss" : "i_212",
+                "fleur": "i_681"
+            },
+            "comp" : {
+                "papier" : "ephemere",
+                "mob_drop":"parchemin",
+                "boss_eb" : "i_470"
+            }
+        },
+        "Thomas" : {
+            "perso" : {
+                "pierre" : "agate_agnidus",
+                "mob_drop": "insigne_p",
+                "boss" : "i_212",
+                "fleur": "i_688"
+            },
+            "comp" : {
+                "papier" : "ephemere",
+                "mob_drop":"insigne_p",
+                "boss_eb" : "i_481"
+            }
+        },
+        "Dehya" : {
+            "perso" : {
+                "pierre" : "agate_agnidus",
+                "mob_drop": "bandeau",
+                "boss" : "i_113039",
+                "fleur": "i_101222"
+            },
+            "comp" : {
+                "papier" : "usage",
+                "mob_drop":"bandeau",
+                "boss_eb" : "i_113041"
+            }
+        },
+        "Lyney" : {
+            "perso" : {
+                "pierre" : "agate_agnidus",
+                "mob_drop": "insigne",
+                "boss" : "i_113051",
+                "fleur": "i_101236"
+            },
+            "comp" : {
+                "papier" : "equite",
+                "mob_drop":"insigne",
+                "boss_eb" : "i_113047"
+            }
+        },
+        "Noelle" : {
+            "perso" : {
+                "pierre" : "topaze_prithiva",
+                "mob_drop": "masque",
+                "boss" : "i_206",
+                "fleur": "i_610"
+            },
+            "comp" : {
+                "papier" : "resistance",
+                "mob_drop":"masque",
+                "boss_eb" : "i_462"
+            }
+        },
+        "Ningguang" : {
+            "perso" : {
+                "pierre" : "topaze_prithiva",
+                "mob_drop": "insigne",
+                "boss" : "i_206",
+                "fleur": "i_604"
+            },
+            "comp" : {
+                "papier" : "prosperiter",
+                "mob_drop":"insigne",
+                "boss_eb" : "i_466"
+            }
+        },
+        "Zhongli" : {
+            "perso" : {
+                "pierre" : "topaze_prithiva",
+                "mob_drop": "insigne_p",
+                "boss" : "i_206",
+                "fleur": "i_602"
+            },
+            "comp" : {
+                "papier" : "or",
+                "mob_drop":"blob",
+                "boss_eb" : "i_467"
+            }
+        },
+        "Albedo" : {
+            "perso" : {
+                "pierre" : "topaze_prithiva",
+                "mob_drop": "parchemin",
+                "boss" : "i_206",
+                "fleur": "i_601"
+            },
+            "comp" : {
+                "papier" : "poesie",
+                "mob_drop":"parchemin",
+                "boss_eb" : "i_467"
+            }
+        },
+        "Gorou" : {
+            "perso" : {
+                "pierre" : "topaze_prithiva",
+                "mob_drop": "spectrale",
+                "boss" : "i_211",
+                "fleur": "i_685"
+            },
+            "comp" : {
+                "papier" : "lumiere",
+                "mob_drop":"spectrale",
+                "boss_eb" : "i_480"
+            }
+        },
+        "Itto" : {
+            "perso" : {
+                "pierre" : "topaze_prithiva",
+                "mob_drop": "blob",
+                "boss" : "i_215",
+                "fleur": "i_677"
+            },
+            "comp" : {
+                "papier" : "elegance",
+                "mob_drop":"blob",
+                "boss_eb" : "i_482"
+            }
+        },
+        "Yun-Jin" : {
+            "perso" : {
+                "pierre" : "topaze_prithiva",
+                "mob_drop": "masque",
+                "boss" : "i_215",
+                "fleur": "i_604"
+            },
+            "comp" : {
+                "papier" : "diligence",
+                "mob_drop":"masque",
+                "boss_eb" : "i_482"
+            }
+        },
+        "Chongyun" : {
+            "perso" : {
+                "pierre" : "jade_shivada",
+                "mob_drop": "masque",
+                "boss" : "i_204",
+                "fleur": "i_602"
+            },
+            "comp" : {
+                "papier" : "diligence",
+                "mob_drop":"masque",
+                "boss_eb" : "i_463"
+            }
+        },
+        "Kaeya" : {
+            "perso" : {
+                "pierre" : "jade_shivada",
+                "mob_drop": "insigne_p",
+                "boss" : "i_204",
+                "fleur": "i_600"
+            },
+            "comp" : {
+                "papier" : "poesie",
+                "mob_drop":"insigne_p",
+                "boss_eb" : "i_466"
+            }
+        },
+        "Qiqi" : {
+            "perso" : {
+                "pierre" : "jade_shivada",
+                "mob_drop": "parchemin",
+                "boss" : "i_204",
+                "fleur": "i_611"
+            },
+            "comp" : {
+                "papier" : "prosperiter",
+                "mob_drop":"parchemin",
+                "boss_eb" : "i_464"
+            }
+        },
+        "Diona" : {
+            "perso" : {
+                "pierre" : "jade_shivada",
+                "mob_drop": "pointe",
+                "boss" : "i_204",
+                "fleur": "i_600"
+            },
+            "comp" : {
+                "papier" : "liberter",
+                "mob_drop":"pointe",
+                "boss_eb" : "i_468"
+            }
+        },
+        "Ganyu" : {
+            "perso" : {
+                "pierre" : "jade_shivada",
+                "mob_drop": "nectar",
+                "boss" : "i_204",
+                "fleur": "i_614"
+            },
+            "comp" : {
+                "papier" : "diligence",
+                "mob_drop":"nectar",
+                "boss_eb" : "i_469"
+            }
+        },
+        "Rosalia" : {
+            "perso" : {
+                "pierre" : "jade_shivada",
+                "mob_drop": "insigne",
+                "boss" : "i_204",
+                "fleur": "i_610"
+            },
+            "comp" : {
+                "papier" : "poesie",
+                "mob_drop":"insigne",
+                "boss_eb" : "i_469"
+            }
+        },
+        "Eula" : {
+            "perso" : {
+                "pierre" : "jade_shivada",
+                "mob_drop": "masque",
+                "boss" : "i_208",
+                "fleur": "i_603"
+            },
+            "comp" : {
+                "papier" : "resistance",
+                "mob_drop":"masque",
+                "boss_eb" : "i_470"
+            }
+        },
+        "Ayaka" : {
+            "perso" : {
+                "pierre" : "jade_shivada",
+                "mob_drop": "garde",
+                "boss" : "i_211",
+                "fleur": "i_678"
+            },
+            "comp" : {
+                "papier" : "elegance",
+                "mob_drop":"garde",
+                "boss_eb" : "i_471"
+            }
+        },
+        "Aloy" : {
+            "perso" : {
+                "pierre" : "jade_shivada",
+                "mob_drop": "spectrale",
+                "boss" : "i_208",
+                "fleur": "i_679"
+            },
+            "comp" : {
+                "papier" : "liberter",
+                "mob_drop":"spectrale",
+                "boss_eb" : "i_480"
+            }
+        },
+        "Shenhe" : {
+            "perso" : {
+                "pierre" : "jade_shivada",
+                "mob_drop": "nectar",
+                "boss" : "i_216",
+                "fleur": "i_614"
+            },
+            "comp" : {
+                "papier" : "prosperiter",
+                "mob_drop":"nectar",
+                "boss_eb" : "i_482"
+            }
+        },
+        "Layla" : {
+            "perso" : {
+                "pierre" : "jade_shivada",
+                "mob_drop": "parchemin",
+                "boss" : "i_113038",
+                "fleur": "i_689"
+            },
+            "comp" : {
+                "papier" : "ingénuité",
+                "mob_drop":"parchemin",
+                "boss_eb" : "i_113042"
+            }
+        },
+        "Mika" : {
+            "perso" : {
+                "pierre" : "jade_shivada",
+                "mob_drop": "insigne",
+                "boss" : "i_113044",
+                "fleur": "i_613"
+            },
+            "comp" : {
+                "papier" : "poesie",
+                "mob_drop":"insigne",
+                "boss_eb" : "i_113042"
+            }
+        },
+        "Freminet" : {
+            "perso" : {
+                "pierre" : "jade_shivada",
+                "mob_drop": "cristal",
+                "boss" : "i_113050",
+                "fleur": "i_101233"
+            },
+            "comp" : {
+                "papier" : "justice",
+                "mob_drop":"cristal",
+                "boss_eb" : "i_113046"
+            }
+        },
+        "Wriothesley" : {
+            "perso" : {
+                "pierre" : "jade_shivada",
+                "mob_drop": "engrenage",
+                "boss" : "i_113052",
+                "fleur": "i_101239"
+            },
+            "comp" : {
+                "papier" : "ordre",
+                "mob_drop":"engrenage",
+                "boss_eb" : "i_113047"
+            }
+        },
+        "Tighnari" : {
+            "perso" : {
+                "pierre" : "emeraude_nagadus",
+                "mob_drop": "pollen",
+                "boss" : "i_487",
+                "fleur": "i_689"
+            },
+            "comp" : {
+                "papier" : "admonestation",
+                "mob_drop":"pollen",
+                "boss_eb" : "i_485"
+            }
+        },
+        "Collei" : {
+            "perso" : {
+                "pierre" : "emeraude_nagadus",
+                "mob_drop": "pointe",
+                "boss" : "i_487",
+                "fleur": "i_690"
+            },
+            "comp" : {
+                "papier" : "usage",
+                "mob_drop":"pointe",
+                "boss_eb" : "i_484"
+            }
+        },
+        "Nahida" : {
+            "perso" : {
+                "pierre" : "emeraude_nagadus",
+                "mob_drop": "pollen",
+                "boss" : "i_113040",
+                "fleur": "i_691"
+            },
+            "comp" : {
+                "papier" : "ingénuité",
+                "mob_drop":"pollen",
+                "boss_eb" : "i_113041"
+            }
+        },
+        "Yaoyao" : {
+            "perso" : {
+                "pierre" : "emeraude_nagadus",
+                "mob_drop": "blob",
+                "boss" : "i_113040",
+                "fleur": "i_605"
+            },
+            "comp" : {
+                "papier" : "diligence",
+                "mob_drop":"blob",
+                "boss_eb" : "i_113043"
+            }
+        },
+        "Alhaitham" : {
+            "perso" : {
+                "pierre" : "emeraude_nagadus",
+                "mob_drop": "bandeau",
+                "boss" : "i_113044",
+                "fleur": "i_101222"
+            },
+            "comp" : {
+                "papier" : "ingénuité",
+                "mob_drop":"bandeau",
+                "boss_eb" : "i_113042"
+            }
+        },
+        "Kirara" : {
+            "perso" : {
+                "pierre" : "emeraude_nagadus",
+                "mob_drop": "spectrale",
+                "boss" : "i_113045",
+                "fleur": "i_686"
+            },
+            "comp" : {
+                "papier" : "ephemere",
+                "mob_drop":"spectrale",
+                "boss_eb" : "i_113048"
+            }
+        },
+        "Kaveh" : {
+            "perso" : {
+                "pierre" : "emeraude_nagadus",
+                "mob_drop": "pollen",
+                "boss" : "i_113040",
+                "fleur": "i_101223"
+            },
+            "comp" : {
+                "papier" : "ingénuité",
+                "mob_drop":"pollen",
+                "boss_eb" : "i_113047"
+            }
+        },
+        "Baizhu" : {
+            "perso" : {
+                "pierre" : "emeraude_nagadus",
+                "mob_drop": "pollen",
+                "boss" : "i_113045",
+                "fleur": "i_611"
+            },
+            "comp" : {
+                "papier" : "or",
+                "mob_drop":"pollen",
+                "boss_eb" : "i_113046"
+            }
+        }
+    },
     "artefact":{
         "Venti": [
             {
@@ -8,53 +1025,43 @@
                 "data":[
                     "Recharge d'énergie %", "Maitrise élémentaire","ATQ %","Taux CRIT %"
                 ],
-                "data-lore" : [
-                    "PV", "4780"
-                ]
+                "data-lore" : "PV : 4780"
             },
             {
                 "name":"Plume de flèche de la Verte Chasseuse",
                 "id":15002,
-                "data-tile" : "Ombre de la Verte Chasseuse",
+                "data-title" : "Ombre de la Verte Chasseuse",
                 "data":[
                     "Recharge d'énergie %", "Maitrise élémentaire","ATQ %","Taux CRIT %"
                 ],
-                "data-lore" : [
-                    "ATQ", "311"
-                ]
+                "data-lore" : "ATQ : 311"
             },
             {
                 "name":"Détermination de la Verte Chasseuse",
                 "id":15002,
-                "data-tile" : "Ombre de la Verte Chasseuse",
+                "data-title" : "Ombre de la Verte Chasseuse",
                 "data":[
                     "Recharge d'énergie %", "DGT CRIT %","ATQ %","Taux CRIT %"
                 ],
-                "data-lore" : [
-                    "Maîtrise élémentaire", "187"
-                ]
+                "data-lore" : "Maîtrise élémentaire : 187"
             },
             {
                 "name":"Récipient de la Verte Chasseuse",
                 "id":15002,
-                "data-tile" : "Ombre de la Verte Chasseuse",
+                "data-title" : "Ombre de la Verte Chasseuse",
                 "data":[
                     "Recharge d'énergie %", "Maitrise élémentaire","ATQ %","Taux CRIT %"
                 ],
-                "data-lore" : [
-                    "Bonus de DGT Anémo", "46.6%"
-                ]
+                "data-lore" : "Bonus de DGT Anémo : 46.6%"
             },
             {
                 "name":"Diadème de la Verte Chasseuse",
                 "id":15002,
-                "data-tile" : "Ombre de la Verte Chasseuse",
+                "data-title" : "Ombre de la Verte Chasseuse",
                 "data":[
                     "Recharge d'énergie %", "DGT CRIT %","ATQ %","Taux CRIT %"
                 ],
-                "data-lore" : [
-                    "Maîtrise élémentaire", "187"
-                ]
+                "data-lore" : "Maîtrise élémentaire : 187"
             }
         ],
         "Jean":[
@@ -65,9 +1072,7 @@
                 "data":[
                     "Recharge d'énergie %", "DGT CRIT %","ATQ %","Taux CRIT %"
                 ],
-                "data-lore":[
-                    "PV", "4780"
-                ]
+                "data-lore": "PV : 4780"
             },
             {
                 "name":"Plume de flèche de la Verte Chasseuse",
@@ -76,9 +1081,7 @@
                 "data":[
                     "Recharge d'énergie %", "DGT CRIT %","ATQ %","Taux CRIT %"
                 ],
-                "data-lore":[
-                    "ATQ", "311"
-                ]
+                "data-lore": "ATQ : 311"
             },
             {
                 "name":"Détermination de la Verte Chasseuse",
@@ -87,9 +1090,7 @@
                 "data":[
                     "Taux CRIT %", "DGT CRIT %", "Recharge d'énergie %", "Maitrise élémentaire"
                 ],
-                "data-lore":[
-                    "ATQ", "46.6%"
-                ]
+                "data-lore": "ATQ : 46.6%"
             },
             {
                 "name":"Récipient de la Verte Chasseuse",
@@ -98,9 +1099,7 @@
                 "data":[
                     "Taux CRIT %", "DGT CRIT %", "Recharge d'énergie %", "Maitrise élémentaire"
                 ],
-                "data-lore":[
-                    "ATQ", "46.6%"
-                ]
+                "data-lore":"ATQ : 46.6%"
             },
             {
                 "name":"Diadème de la Verte Chasseuse",
@@ -109,9 +1108,7 @@
                 "data":[
                     "ATQ %","Taux CRIT %","DGT CRIT %","Recharge d'énergie %"
                 ],
-                "data-lore":[
-                    "Bonus de soins", "35.9%"
-                ]
+                "data-lore": "Bonus de soins : 35.9%"
             }
         ],
         "Kazuha":[
@@ -122,9 +1119,7 @@
                 "data":[
                     "Maitrise élémentaire","Taux CRIT %","DGT CRIT %","Recharge d'énergie %"
                 ],
-                "data-lore":[
-                    "PV","4780"
-                ]
+                "data-lore":"PV : 4780"
             },
             {
                 "name":"Plume de flèche de la Verte Chasseuse",
@@ -133,9 +1128,7 @@
                 "data":[
                     "Maitrise élémentaire","Taux CRIT %","DGT CRIT %","Recharge d'énergie %"
                 ],
-                "data-lore":[
-                    "ATQ","311"
-                ]
+                "data-lore": "ATQ : 311"
             },
             {
                 "name":"Détermination de la Verte Chasseuse",
@@ -144,9 +1137,7 @@
                 "data":[
                     "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
                 ],
-                "data-lore":[
-                    "Maîtrise élémentaire","187"
-                ]
+                "data-lore": "Maîtrise élémentaire : 187"
             },
             {
                 "name":"Récipient de la Verte Chasseuse",
@@ -155,9 +1146,7 @@
                 "data":[
                     "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
                 ],
-                "data-lore":[
-                    "Maîtrise élémentaire","187"
-                ]
+                "data-lore": "Maîtrise élémentaire : 187"
             },
             {
                 "name":"Diadème de la Verte Chasseuse",
@@ -166,9 +1155,3250 @@
                 "data":[
                     "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
                 ],
-                "data-lore":[
-                    "Maîtrise élémentaire","187"
-                ]
+                "data-lore": "Maîtrise élémentaire : 187"
+            }
+        ],
+        "Sayu":[
+            {
+                "name":"Souvenir de fleur des champs",
+                "id":15002,
+                "data-title":"Ombre de la Verte Chasseuse",
+                "data":[
+                    "ATQ %","Recharge d'énergie %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume de flèche de la Verte Chasseuse",
+                "id":15002,
+                "data-title":"Ombre de la Verte Chasseuse",
+                "data":[
+                    "ATQ %","Recharge d'énergie %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Détermination de la Verte Chasseuse",
+                "id":15002,
+                "data-title":"Ombre de la Verte Chasseuse",
+                "data":[
+                    "Maitrise élémentaire","Recharge d'énergie %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Récipient de la Verte Chasseuse",
+                "id":15002,
+                "data-title":"Ombre de la Verte Chasseuse",
+                "data":[
+                    "Maitrise élémentaire","Recharge d'énergie %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Diadème de la Verte Chasseuse",
+                "id":15002,
+                "data-title":"Ombre de la Verte Chasseuse",
+                "data":[
+                    "ATQ %","Recharge d'énergie %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"Bonus de soins : 35.9%"
+            }
+        ],
+        "Sucrose":[
+            {
+                "name":"Souvenir de fleur des champs",
+                "id":15002,
+                "data-title":"Ombre de la Verte Chasseuse",
+                "data":[
+                    "Recharge d'énergie %","ATQ %","Taux CRIT %","Maitrise élémentaire"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume de flèche de la Verte Chasseuse",
+                "id":15002,
+                "data-title":"Ombre de la Verte Chasseuse",
+                "data":[
+                    "Recharge d'énergie %","ATQ %","Taux CRIT %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Détermination de la Verte Chasseuse",
+                "id":15002,
+                "data-title":"Ombre de la Verte Chasseuse",
+                "data":[
+                    "Recharge d'énergie %","ATQ %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"Maîtrise élémentaire : 187"
+            },
+            {
+                "name":"Récipient de la Verte Chasseuse",
+                "id":15002,
+                "data-title":"Ombre de la Verte Chasseuse",
+                "data":[
+                    "Recharge d'énergie %","ATQ %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"Maîtrise élémentaire : 187"
+            },
+            {
+                "name":"Diadème de la Verte Chasseuse",
+                "id":15002,
+                "data-title":"Ombre de la Verte Chasseuse",
+                "data":[
+                    "Recharge d'énergie %","ATQ %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"Maîtrise élémentaire : 187"
+            }
+        ],
+        "Xiao":[
+            {
+                "name":"Nostalgie du Gladiateur",
+                "id":15001,
+                "data-title":"Rideau du Gladiateur",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Recharge d'énergie %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Destination de Gladiateur",
+                "id":15001,
+                "data-title":"Rideau du Gladiateur",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Recharge d'énergie %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Détermination de la Verte Chasseuse",
+                "id":15002,
+                "data-title":"Ombre de la Verte Chasseuse",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Maitrise élémentaire","Recharge d'énergie %"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Récipient de la Verte Chasseuse",
+                "id":15002,
+                "data-title":"Ombre de la Verte Chasseuse",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Recharge d'énergie %"
+                ],
+                "data-lore":"Bonus de DGT Anémo : 46.6%"
+            },
+            {
+                "name":"Diadème de la Verte Chasseuse",
+                "id":15002,
+                "data-title":"Ombre de la Verte Chasseuse",
+                "data":[
+                    "Maitrise élémentaire","DGT CRIT %","ATQ %","Recharge d'énergie %"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Heizou":[
+            {
+                "name":"Souvenir de fleur des champs",
+                "id":15002,
+                "data-title":"Ombre de la Verte Chasseuse",
+                "data":[
+                    "DGT CRIT %","ATQ %","Taux CRIT %","Maitrise élémentaire"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume de flèche de la Verte Chasseuse",
+                "id":15002,
+                "data-title":"Ombre de la Verte Chasseuse",
+                "data":[
+                    "DGT CRIT %","ATQ %","Taux CRIT %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Détermination de la Verte Chasseuse",
+                "id":15002,
+                "data-title":"Ombre de la Verte Chasseuse",
+                "data":[
+                    "Recharge d'énergie %","Maitrise élémentaire","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Récipient de la Verte Chasseuse",
+                "id":15002,
+                "data-title":"Ombre de la Verte Chasseuse",
+                "data":[
+                    "Maitrise élémentaire","ATQ %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"Bonus de DGT Anémo : 46.6%"
+            },
+            {
+                "name":"Diadème de la Verte Chasseuse",
+                "id":15002,
+                "data-title":"Ombre de la Verte Chasseuse",
+                "data":[
+                    "Recharge d'énergie %","ATQ %","Maitrise élémentaire","DGT CRIT %"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Nomade":[
+            {
+                "name":"Aube de la cité des rois",
+                "id":15027,
+                "data-title":"Chronique du Pavillon du désert",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Recharge d'énergie %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Fin du royaume doré",
+                "id":15027,
+                "data-title":"Chronique du Pavillon du désert",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Recharge d'énergie %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Horloge du chemin perdu",
+                "id":15027,
+                "data-title":"Chronique du Pavillon du désert",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Défenseur du rêve enchanteur",
+                "id":15027,
+                "data-title":"Chronique du Pavillon du désert",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Recharge d'énergie %"
+                ],
+                "data-lore":"Bonus de DGT Anémo : 46.6%"
+            },
+            {
+                "name":"Héritage de la haute lignée du désert",
+                "id":15027,
+                "data-title":"Chronique du Pavillon du désert",
+                "data":[
+                    "DGT CRIT %","ATQ %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Faruzan":[
+            {
+                "name":"Fleur du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Recharge d'énergie %","Taux CRIT %","DGT CRIT %","ATQ %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Recharge d'énergie %","Taux CRIT %","DGT CRIT %","ATQ %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Montre de poche du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"Recharge d'énergie : 51.8%"
+            },
+            {
+                "name":"Urne d'argent du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Recharge d'énergie %","Taux CRIT %","DGT CRIT %","ATQ %"
+                ],
+                "data-lore":"Bonus de DGT Anémo : 46.6%"
+            },
+            {
+                "name":"Masque du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Recharge d'énergie %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Lynette":[
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            }
+        ],
+        "Xingqiu":[
+            {
+                "name":"Broche plaquée",
+                "id":15016,
+                "data-title":"Âme des profondeurs",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Brise nostalgique",
+                "id":15016,
+                "data-title":"Âme des profondeurs",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Montre de poche du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Urne d'argent du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"Bonus de DGT Hydro : 46.6%"
+            },
+            {
+                "name":"Masque du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "ATQ %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Barbara":[
+            {
+                "name":"Fleur de teinte marine",
+                "id":15022,
+                "data-title":"Palourde aux teintes océaniques",
+                "data":[
+                    "PV %","Recharge d'énergie %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume du palais des profondeurs",
+                "id":15022,
+                "data-title":"Palourde aux teintes océaniques",
+                "data":[
+                    "PV %","Recharge d'énergie %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Pétoncle de séparation",
+                "id":15022,
+                "data-title":"Palourde aux teintes océaniques",
+                "data":[
+                    "Taux CRIT %","Recharge d'énergie %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"PV : 46.6%"
+            },
+            {
+                "name":"Écrin de perle",
+                "id":15022,
+                "data-title":"Palourde aux teintes océaniques",
+                "data":[
+                    "Taux CRIT %","Recharge d'énergie %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"PV : 46.6%"
+            },
+            {
+                "name":"Couronne de Watatsumi",
+                "id":15022,
+                "data-title":"Palourde aux teintes océaniques",
+                "data":[
+                    "PV %","Recharge d'énergie %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"Bonus de soins : 35.9%"
+            }
+        ],
+        "Mona":[
+            {
+                "name":"Tsuba magnifique",
+                "id":15020,
+                "data-title":"Emblème du destin brisé",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume brisée",
+                "id":15020,
+                "data-title":"Emblème du destin brisé",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Inro de la tempête",
+                "id":15020,
+                "data-title":"Emblème du destin brisé",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Gourde pourpre",
+                "id":15020,
+                "data-title":"Emblème du destin brisé",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"Bonus de DGT Hydro : 46.6%"
+            },
+            {
+                "name":"Kabuto orné",
+                "id":15020,
+                "data-title":"Emblème du destin brisé",
+                "data":[
+                    "ATQ %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Tartaglia":[
+            {
+                "name":"Broche plaquée",
+                "id":15016,
+                "data-title":"Âme des profondeurs",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Brise nostalgique",
+                "id":15016,
+                "data-title":"Âme des profondeurs",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Boussole en bronze",
+                "id":15016,
+                "data-title":"Âme des profondeurs",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Calice des profondeurs",
+                "id":15016,
+                "data-title":"Âme des profondeurs",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"Bonus de DGT Hydro : 46.6%"
+            },
+            {
+                "name":"Calot taché de vin",
+                "id":15016,
+                "data-title":"Âme des profondeurs",
+                "data":[
+                    "Taux CRIT %","Recharge d'énergie %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"DGT CRIT : 62.2%"
+            }
+        ],
+        "Kokomi":[
+            {
+                "name":"Fleur de teinte marine",
+                "id":15022,
+                "data-title":"Palourde aux teintes océaniques",
+                "data":[
+                    "PV %","Recharge d'énergie %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume du palais des profondeurs",
+                "id":15022,
+                "data-title":"Palourde aux teintes océaniques",
+                "data":[
+                    "PV %","Recharge d'énergie %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Pétoncle de séparation",
+                "id":15022,
+                "data-title":"Palourde aux teintes océaniques",
+                "data":[
+                    "Recharge d'énergie %","ATQ %","Maitrise élémentaire","PV"
+                ],
+                "data-lore":"PV : 46.6%"
+            },
+            {
+                "name":"Écrin de perle",
+                "id":15022,
+                "data-title":"Palourde aux teintes océaniques",
+                "data":[
+                    "Recharge d'énergie %","ATQ %","Maitrise élémentaire","PV"
+                ],
+                "data-lore":"PV : 46.6%"
+            },
+            {
+                "name":"Couronne de Watatsumi",
+                "id":15022,
+                "data-title":"Palourde aux teintes océaniques",
+                "data":[
+                    "PV %","Recharge d'énergie %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"Bonus de soins : 35.9%"
+            }
+        ],
+        "Ayato":[
+            {
+                "name":"Fleur d'aromesprit",
+                "id":15024,
+                "data-title":"Échos d'une offrande",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Feuille de jade",
+                "id":15024,
+                "data-title":"Échos d'une offrande",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Symbole de félicitation",
+                "id":15024,
+                "data-title":"Échos d'une offrande",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Calice des sources",
+                "id":15024,
+                "data-title":"Échos d'une offrande",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"Bonus de DGT Hydro : 46.6%"
+            },
+            {
+                "name":"Anneaux de fluidité",
+                "id":15024,
+                "data-title":"Échos d'une offrande",
+                "data":[
+                    "Recharge d'énergie %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Yelan":[
+            {
+                "name":"Tsuba magnifique",
+                "id":15020,
+                "data-title":"Emblème du destin brisé",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","PV %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume brisée",
+                "id":15020,
+                "data-title":"Emblème du destin brisé",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","PV %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Inro de la tempête",
+                "id":15020,
+                "data-title":"Emblème du destin brisé",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","PV"
+                ],
+                "data-lore":"PV : 46.6%"
+            },
+            {
+                "name":"Gourde pourpre",
+                "id":15020,
+                "data-title":"Emblème du destin brisé",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","PV %"
+                ],
+                "data-lore":"Bonus de DGT Hydro : 46.6%"
+            },
+            {
+                "name":"Kabuto orné",
+                "id":15020,
+                "data-title":"Emblème du destin brisé",
+                "data":[
+                    "PV %","DGT CRIT %","Recharge d'énergie %","PV"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Nilou":[
+            {
+                "name":"Fleur honorifique",
+                "id":15017,
+                "data-title":"Ténacité du Millelithe",
+                "data":[
+                    "DGT CRIT %","Taux CRIT %","PV %","Maitrise élémentaire"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume de guerre du Commandant",
+                "id":15017,
+                "data-title":"Ténacité du Millelithe",
+                "data":[
+                    "DGT CRIT %","Taux CRIT %","PV %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Tombée du rideau",
+                "id":15003,
+                "data-title":"Bande vagabonde",
+                "data":[
+                    "DGT CRIT %","Taux CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"PV : 46.6%"
+            },
+            {
+                "name":"Gourde à cordes du ménestrel",
+                "id":15003,
+                "data-title":"Bande vagabonde",
+                "data":[
+                    "DGT CRIT %","Taux CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"PV : 46.6%"
+            },
+            {
+                "name":"Haut-de-forme du chef d'orchestre",
+                "id":15003,
+                "data-title":"Bande vagabonde",
+                "data":[
+                    "DGT CRIT %","Taux CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"PV : 46.6%"
+            }
+        ],
+        "Candace":[
+            {
+                "name":"Fleur du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "PV %","Recharge d'énergie %","ATQ %","Taux CRIT %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "PV %","Recharge d'énergie %","ATQ %","Taux CRIT %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Montre de poche du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "DGT CRIT %","Recharge d'énergie %","ATQ %","Taux CRIT %"
+                ],
+                "data-lore":"PV : 46.6%"
+            },
+            {
+                "name":"Urne d'argent du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "DGT CRIT %","Recharge d'énergie %","ATQ %","Taux CRIT %"
+                ],
+                "data-lore":"Bonus de DGT Hydro : 46.6%"
+            },
+            {
+                "name":"Masque du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "PV %","Recharge d'énergie %","ATQ %","DGT CRIT %"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Neuvillette":[
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            }
+        ],
+        "Razor":[
+            {
+                "name":"Fleur de fer ensanglantée",
+                "id":15008,
+                "data-title":"Chevalerie ensanglatée",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Recharge d'énergie %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume noire ensanglantée",
+                "id":15008,
+                "data-title":"Chevalerie ensanglatée",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Recharge d'énergie %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Figé dans le temps",
+                "id":15018,
+                "data-title":"Flamme blême",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Coupe de transcendance",
+                "id":15018,
+                "data-title":"Flamme blême",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Recharge d'énergie %"
+                ],
+                "data-lore":"Bonus de DGT physiques : 58.3%"
+            },
+            {
+                "name":"Masque ricanant",
+                "id":15018,
+                "data-title":"Flamme blême",
+                "data":[
+                    "DGT CRIT %","ATQ %","Recharge d'énergie %","ATQ"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Fischl":[
+            {
+                "name":"Compassion de l'Oiselle du tonnerre",
+                "id":15005,
+                "data-title":"Colère de tonnerre",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Recharge d'énergie %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Survivant de la catastrophe",
+                "id":15005,
+                "data-title":"Colère de tonnerre",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Recharge d'énergie %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Espoir du Gladiateur",
+                "id":15001,
+                "data-title":"Rideau du Gladiateur",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Ivresse du Gladiateur",
+                "id":15001,
+                "data-title":"Rideau du Gladiateur",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Recharge d'énergie %"
+                ],
+                "data-lore":"Bonus de DGT Électro : 46.6%"
+            },
+            {
+                "name":"Triomphe du Gladiateur",
+                "id":15001,
+                "data-title":"Rideau du Gladiateur",
+                "data":[
+                    "DGT CRIT %","ATQ %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Beidou":[
+            {
+                "name":"Compassion de l'Oiselle du tonnerre",
+                "id":15005,
+                "data-title":"Colère de tonnerre",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Survivant de la catastrophe",
+                "id":15005,
+                "data-title":"Colère de tonnerre",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Montre de poche du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Urne d'argent du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"Bonus de DGT Électro : 46.6%"
+            },
+            {
+                "name":"Masque du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "DGT CRIT %","Recharge d'énergie %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Lisa":[
+            {
+                "name":"Compassion de l'Oiselle du tonnerre",
+                "id":15005,
+                "data-title":"Colère de tonnerre",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Survivant de la catastrophe",
+                "id":15005,
+                "data-title":"Colère de tonnerre",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Montre de poche du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Urne d'argent du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"Bonus de DGT Électro : 46.6%"
+            },
+            {
+                "name":"Masque du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "DGT CRIT %","Recharge d'énergie %","ATQ %","ATQ"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Keqing":[
+            {
+                "name":"Compassion de l'Oiselle du tonnerre",
+                "id":15005,
+                "data-title":"Colère de tonnerre",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Survivant de la catastrophe",
+                "id":15005,
+                "data-title":"Colère de tonnerre",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Espoir du Gladiateur",
+                "id":15001,
+                "data-title":"Rideau du Gladiateur",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Ivresse du Gladiateur",
+                "id":15001,
+                "data-title":"Rideau du Gladiateur",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Recharge d'énergie %"
+                ],
+                "data-lore":"Bonus de DGT Électro : 46.6%"
+            },
+            {
+                "name":"Triomphe du Gladiateur",
+                "id":15001,
+                "data-title":"Rideau du Gladiateur",
+                "data":[
+                    "DGT CRIT %","ATQ %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Baal":[
+            {
+                "name":"Tsuba magnifique",
+                "id":15020,
+                "data-title":"Emblème du destin brisé",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume brisée",
+                "id":15020,
+                "data-title":"Emblème du destin brisé",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Inro de la tempête",
+                "id":15020,
+                "data-title":"Emblème du destin brisé",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"Recharge d'énergie : 51.8%"
+            },
+            {
+                "name":"Gourde pourpre",
+                "id":15020,
+                "data-title":"Emblème du destin brisé",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Kabuto orné",
+                "id":15020,
+                "data-title":"Emblème du destin brisé",
+                "data":[
+                    "ATQ %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Sara":[
+            {
+                "name":"Fleur du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Recharge d'énergie %","Taux CRIT %","DGT CRIT %","ATQ %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Recharge d'énergie %","Taux CRIT %","DGT CRIT %","ATQ %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Montre de poche du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Urne d'argent du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"Bonus de DGT Électro : 46.6%"
+            },
+            {
+                "name":"Masque du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "DGT CRIT %","Recharge d'énergie %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Yae":[
+            {
+                "name":"Compassion de l'Oiselle du tonnerre",
+                "id":15005,
+                "data-title":"Colère de tonnerre",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Survivant de la catastrophe",
+                "id":15005,
+                "data-title":"Colère de tonnerre",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Espoir du Gladiateur",
+                "id":15001,
+                "data-title":"Rideau du Gladiateur",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Ivresse du Gladiateur",
+                "id":15001,
+                "data-title":"Rideau du Gladiateur",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Recharge d'énergie %"
+                ],
+                "data-lore":"Bonus de DGT Électro : 46.6%"
+            },
+            {
+                "name":"Triomphe du Gladiateur",
+                "id":15001,
+                "data-title":"Rideau du Gladiateur",
+                "data":[
+                    "DGT CRIT %","ATQ %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Shinobu":[
+            {
+                "name":"Fleur honorifique",
+                "id":15017,
+                "data-title":"Ténacité du Millelithe",
+                "data":[
+                    "Recharge d'énergie %","Taux CRIT %","PV %","Maitrise élémentaire"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume de guerre du Commandant",
+                "id":15017,
+                "data-title":"Ténacité du Millelithe",
+                "data":[
+                    "Recharge d'énergie %","Taux CRIT %","PV %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Cadran solaire doré",
+                "id":15017,
+                "data-title":"Ténacité du Millelithe",
+                "data":[
+                    "Recharge d'énergie %","Taux CRIT %","DGT CRIT %","PV %"
+                ],
+                "data-lore":"Maîtrise élémentaire : 187"
+            },
+            {
+                "name":"Coupe du serment",
+                "id":15017,
+                "data-title":"Ténacité du Millelithe",
+                "data":[
+                    "Recharge d'énergie %","Taux CRIT %","DGT CRIT %","Maitrise élémentaire"
+                ],
+                "data-lore":"PV : 46.6%"
+            },
+            {
+                "name":"Ancien heaume de Général",
+                "id":15017,
+                "data-title":"Ténacité du Millelithe",
+                "data":[
+                    "Recharge d'énergie %","Taux CRIT %","PV %","Maitrise élémentaire"
+                ],
+                "data-lore":"Bonus de soins : 35.9%"
+            }
+        ],
+        "Dori":[
+            {
+                "name":"Fleur du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "PV %","Recharge d'énergie %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "PV %","Recharge d'énergie %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Montre de poche du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "PV %","ATQ %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"Recharge d'énergie : 51.8%"
+            },
+            {
+                "name":"Urne d'argent du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "ATQ %","Recharge d'énergie %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"PV : 46.6%"
+            },
+            {
+                "name":"Masque du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "PV %","Recharge d'énergie %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"Bonus de soins : 35.9%"
+            }
+        ],
+        "Cyno":[
+            {
+                "name":"Nostalgie du Gladiateur",
+                "id":15001,
+                "data-title":"Rideau du Gladiateur",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Maitrise élémentaire","ATQ %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Destination de Gladiateur",
+                "id":15001,
+                "data-title":"Rideau du Gladiateur",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Maitrise élémentaire","ATQ %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Sablier de tonnerre",
+                "id":15005,
+                "data-title":"Colère de tonnerre",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Maitrise élémentaire","Recharge d'énergie %"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Présage de tombée du tonnerre",
+                "id":15005,
+                "data-title":"Colère de tonnerre",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Maitrise élémentaire","ATQ %"
+                ],
+                "data-lore":"Bonus de DGT Électro : 46.6%"
+            },
+            {
+                "name":"Diadème de l'Invocateur de tonnerre",
+                "id":15005,
+                "data-title":"Colère de tonnerre",
+                "data":[
+                    "Recharge d'énergie %","DGT CRIT %","Maitrise élémentaire","ATQ %"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Xiangling":[
+            {
+                "name":"Fleur ardente de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"                
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume enflammée éternelle de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Montre de poche du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Maitrise élémentaire","Recharge d'énergie %"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Urne d'argent du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Maitrise élémentaire","ATQ %"
+                ],
+                "data-lore":"Bonus de DGT Pyro : 46.6%"
+            },
+            {
+                "name":"Masque du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "DGT CRIT %","Recharge d'énergie %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Klee":[
+            {
+                "name":"Fleur ardente de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"                
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume enflammée éternelle de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Temps évanoui de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Feu du cœur de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"Bonus de DGT Pyro : 46.6%"
+            },
+            {
+                "name":"Chapeau brûlé de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Recharge d'énergie %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Diluc":[
+            {
+                "name":"Fleur ardente de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"                
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume enflammée éternelle de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Temps évanoui de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Feu du cœur de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"Bonus de DGT Pyro : 46.6%"
+            },
+            {
+                "name":"Chapeau brûlé de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Recharge d'énergie %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Bennett":[
+            {
+                "name":"Fleur du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Recharge d'énergie %","PV %","Maitrise élémentaire","ATQ %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Recharge d'énergie %","PV %","PV","ATQ %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Montre de poche du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "ATQ %","PV","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"PV : 46.6%"
+            },
+            {
+                "name":"Urne d'argent du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "PV","Maitrise élémentaire","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"PV : 46.6%"
+            },
+            {
+                "name":"Masque du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "PV","Recharge d'énergie %","ATQ %","PV %"
+                ],
+                "data-lore":"Bonus de soins : 35.9%"
+            }
+        ],
+        "Amber":[
+            {
+                "name":"Fleur du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Recharge d'énergie %","DGT CRIT %","Taux CRIT %","ATQ %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Recharge d'énergie %","DGT CRIT %","Taux CRIT %","ATQ %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Montre de poche du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "DGT CRIT %","Taux CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Urne d'argent du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "DGT CRIT %","Taux CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"Bonus de DGT Pyro : 46.6%"
+            },
+            {
+                "name":"Masque du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Recharge d'énergie %","ATQ %","Maitrise élémentaire","DGT CRIT %"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Xinyan":[
+            {
+                "name":"Fleur du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Recharge d'énergie %","DGT CRIT %","Taux CRIT %","DÉF %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Recharge d'énergie %","DGT CRIT %","Taux CRIT %","DÉF %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Montre de poche du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "DGT CRIT %","Taux CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"DÉF : 58.3%"
+            },
+            {
+                "name":"Urne d'argent du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "DGT CRIT %","Taux CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"DÉF : 58.3%"
+            },
+            {
+                "name":"Masque du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Recharge d'énergie %","ATQ %","DÉF %","DGT CRIT %"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Hu Tao":[
+            {
+                "name":"Fleur ardente de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","PV %","Maitrise élémentaire"                
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume enflammée éternelle de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","PV %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Temps évanoui de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"PV : 46.6%"
+            },
+            {
+                "name":"Feu du cœur de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","PV %","Maitrise élémentaire"
+                ],
+                "data-lore":"Bonus de DGT Pyro : 46.6%"
+            },
+            {
+                "name":"Chapeau brûlé de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Recharge d'énergie %","DGT CRIT %","PV %","Maitrise élémentaire"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Yanfei":[
+            {
+                "name":"Fleur ardente de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"                
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume enflammée éternelle de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Temps évanoui de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Feu du cœur de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"Bonus de DGT Pyro : 46.6%"
+            },
+            {
+                "name":"Chapeau brûlé de la Sorcière",
+                "id":15006,
+                "data-title":"Sorcière des flammes ardentes",
+                "data":[
+                    "Recharge d'énergie %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Yoimiya":[
+            {
+                "name":"Fleur d'enchevêtrement",
+                "id":15019,
+                "data-title":"Réminiscence nostalgique",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Flèche de nostalgie",
+                "id":15019,
+                "data-title":"Réminiscence nostalgique",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Horloge de l'aube",
+                "id":15019,
+                "data-title":"Réminiscence nostalgique",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Cœur plein d'espoir",
+                "id":15019,
+                "data-title":"Réminiscence nostalgique",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"Bonus de DGT Pyro : 46.6%"
+            },
+            {
+                "name":"Visage capricieux",
+                "id":15019,
+                "data-title":"Réminiscence nostalgique",
+                "data":[
+                    "Recharge d'énergie %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Thomas":[
+            {
+                "name":"Tsuba magnifique",
+                "id":15020,
+                "data-title":"Emblème du destin brisé",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume brisée",
+                "id":15020,
+                "data-title":"Emblème du destin brisé",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Inro de la tempête",
+                "id":15020,
+                "data-title":"Emblème du destin brisé",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Gourde pourpre",
+                "id":15020,
+                "data-title":"Emblème du destin brisé",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"Bonus de DGT Pyro : 46.6%"
+            },
+            {
+                "name":"Kabuto orné",
+                "id":15020,
+                "data-title":"Emblème du destin brisé",
+                "data":[
+                    "ATQ %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Dehya":[
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            }
+        ],
+        "Lyney":[
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            }
+        ],
+        "Noelle":[
+            {
+                "name":"Période de floraison",
+                "id":15021,
+                "data-title":"Coquille des rêves opulents",
+                "data":[
+                    "DÉF %","Recharge d'énergie %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume d'opulence",
+                "id":15021,
+                "data-title":"Coquille des rêves opulents",
+                "data":[
+                    "DÉF %","Recharge d'énergie %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Petit matin de la Demoiselle",
+                "id":14004,
+                "data-title":"Amour chéri",
+                "data":[
+                    "ATQ %","Recharge d'énergie %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"DÉF : 58.3%"
+            },
+            {
+                "name":"Loisir de la Demoiselle",
+                "id":14004,
+                "data-title":"Amour chéri",
+                "data":[
+                    "ATQ %","Recharge d'énergie %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"DÉF : 58.3%"
+            },
+            {
+                "name":"Beauté fugace de la Demoiselle",
+                "id":14004,
+                "data-title":"Amour chéri",
+                "data":[
+                    "DÉF %","Recharge d'énergie %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"Bonus de soins : 35.9%"
+            }
+        ],
+        "Ningguang":[
+            {
+                "name":"Fleur des crevasses",
+                "id":15014,
+                "data-title":"Roche ancienne",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Recharge d'énergie %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume des sommets escarpés",
+                "id":15014,
+                "data-title":"Roche ancienne",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Recharge d'énergie %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Montre de poche du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Urne d'argent du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"Bonus de DGT Géo : 46.6%"
+            },
+            {
+                "name":"Masque du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "ATQ %","DGT CRIT %","Recharge d'énergie %","ATQ"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Zhongli":[
+            {
+                "name":"Fleur des crevasses",
+                "id":15014,
+                "data-title":"Roche ancienne",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","PV %","Recharge d'énergie %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume des sommets escarpés",
+                "id":15014,
+                "data-title":"Roche ancienne",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","PV %","Recharge d'énergie %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Montre de poche du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","PV"
+                ],
+                "data-lore":"PV : 46.6%"
+            },
+            {
+                "name":"Urne d'argent du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","PV %"
+                ],
+                "data-lore":"Bonus de DGT Géo : 46.6%"
+            },
+            {
+                "name":"Masque du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "PV %","DGT CRIT %","Recharge d'énergie %","PV"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Albedo":[
+            {
+                "name":"Période de floraison",
+                "id":15021,
+                "data-title":"Coquille des rêves opulents",
+                "data":[
+                    "DÉF %","Recharge d'énergie %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume d'opulence",
+                "id":15021,
+                "data-title":"Coquille des rêves opulents",
+                "data":[
+                    "DÉF %","Recharge d'énergie %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Chant de vie",
+                "id":15021,
+                "data-title":"Coquille des rêves opulents",
+                "data":[
+                    "ATQ %","Taux CRIT %","DGT CRIT %","Recharge d'énergie %"
+                ],
+                "data-lore":"DÉF : 58.3%"
+            },
+            {
+                "name":"Calebasse d'éveil",
+                "id":15021,
+                "data-title":"Coquille des rêves opulents",
+                "data":[
+                    "DÉF %","Recharge d'énergie %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"Bonus de DGT Géo : 46.6%"
+            },
+            {
+                "name":"Chapeau squelettique",
+                "id":15021,
+                "data-title":"Coquille des rêves opulents",
+                "data":[
+                    "DÉF %","ATQ %","DGT CRIT %","Recharge d'énergie %"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Gorou":[
+            {
+                "name":"Période de floraison",
+                "id":15021,
+                "data-title":"Coquille des rêves opulents",
+                "data":[
+                    "DÉF %","Recharge d'énergie %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume d'opulence",
+                "id":15021,
+                "data-title":"Coquille des rêves opulents",
+                "data":[
+                    "DÉF %","Recharge d'énergie %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Chant de vie",
+                "id":15021,
+                "data-title":"Coquille des rêves opulents",
+                "data":[
+                    "ATQ %","Taux CRIT %","DGT CRIT %","Recharge d'énergie %"
+                ],
+                "data-lore":"DÉF : 58.3%"
+            },
+            {
+                "name":"Calebasse d'éveil",
+                "id":15021,
+                "data-title":"Coquille des rêves opulents",
+                "data":[
+                    "DÉF %","Recharge d'énergie %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"Bonus de DGT Géo : 46.6%"
+            },
+            {
+                "name":"Chapeau squelettique",
+                "id":15021,
+                "data-title":"Coquille des rêves opulents",
+                "data":[
+                    "DÉF %","ATQ %","DGT CRIT %","Recharge d'énergie %"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Itto":[
+            {
+                "name":"Période de floraison",
+                "id":15021,
+                "data-title":"Coquille des rêves opulents",
+                "data":[
+                    "DÉF %","Recharge d'énergie %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume d'opulence",
+                "id":15021,
+                "data-title":"Coquille des rêves opulents",
+                "data":[
+                    "DÉF %","Recharge d'énergie %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Chant de vie",
+                "id":15021,
+                "data-title":"Coquille des rêves opulents",
+                "data":[
+                    "ATQ %","Taux CRIT %","DGT CRIT %","Recharge d'énergie %"
+                ],
+                "data-lore":"DÉF : 58.3%"
+            },
+            {
+                "name":"Calebasse d'éveil",
+                "id":15021,
+                "data-title":"Coquille des rêves opulents",
+                "data":[
+                    "DÉF %","Recharge d'énergie %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"Bonus de DGT Géo : 46.6%"
+            },
+            {
+                "name":"Chapeau squelettique",
+                "id":15021,
+                "data-title":"Coquille des rêves opulents",
+                "data":[
+                    "DÉF %","ATQ %","DGT CRIT %","Recharge d'énergie %"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Yun-Jin":[ 
+            {
+                "name":"Période de floraison",
+                "id":15021,
+                "data-title":"Coquille des rêves opulents",
+                "data":[
+                    "DÉF %","Recharge d'énergie %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume d'opulence",
+                "id":15021,
+                "data-title":"Coquille des rêves opulents",
+                "data":[
+                    "DÉF %","Recharge d'énergie %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Chant de vie",
+                "id":15021,
+                "data-title":"Coquille des rêves opulents",
+                "data":[
+                    "ATQ %","Taux CRIT %","DGT CRIT %","Recharge d'énergie %"
+                ],
+                "data-lore":"DÉF : 58.3%"
+            },
+            {
+                "name":"Calebasse d'éveil",
+                "id":15021,
+                "data-title":"Coquille des rêves opulents",
+                "data":[
+                    "ATQ %","Recharge d'énergie %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"DÉF : 58.3%"
+            },
+            {
+                "name":"Chapeau squelettique",
+                "id":15021,
+                "data-title":"Coquille des rêves opulents",
+                "data":[
+                    "DÉF %","ATQ %","DGT CRIT %","Recharge d'énergie %"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Ganyu":[
+            {
+                "name":"Aube de l'orchestre",
+                "id":15003,
+                "data-title":"Bande vagabonde",
+                "data":[
+                    "DGT CRIT %","Taux CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume de flèche du lyriste",
+                "id":15003,
+                "data-title":"Bande vagabonde",
+                "data":[
+                    "DGT CRIT %","Taux CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Tombée du rideau",
+                "id":15003,
+                "data-title":"Bande vagabonde",
+                "data":[
+                    "DGT CRIT %","Taux CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Gourde à cordes du ménestrel",
+                "id":15003,
+                "data-title":"Bande vagabonde",
+                "data":[
+                    "DGT CRIT %","Taux CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"Bonus de DGT Cryo : 46.6%"
+            },
+            {
+                "name":"Haut-de-forme du chef d'orchestre",
+                "id":15003,
+                "data-title":"Bande vagabonde",
+                "data":[
+                    "Recharge d'énergie %","Taux CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"DGT CRIT : 62.2%"
+            }
+        ],
+        "Qiqi":[
+            {
+                "name":"Nostalgie du Gladiateur",
+                "id":15001,
+                "data-title":"Rideau du Gladiateur",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Recharge d'énergie %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Destination de Gladiateur",
+                "id":15001,
+                "data-title":"Rideau du Gladiateur",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Petit matin de la Demoiselle",
+                "id":14004,
+                "data-title":"Amour chéri",
+                "data":[
+                    "Maitrise élémentaire","Recharge d'énergie %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Loisir de la Demoiselle",
+                "id":14004,
+                "data-title":"Amour chéri",
+                "data":[
+                    "ATQ","Recharge d'énergie %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Beauté fugace de la Demoiselle",
+                "id":14004,
+                "data-title":"Amour chéri",
+                "data":[
+                    "ATQ %","Recharge d'énergie %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"Bonus de soins : 35.9%"
+            }
+        ],
+        "Rosalia":[
+            {
+                "name":"Fleur du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Maitrise élémentaire","Taux CRIT %","DGT CRIT %","ATQ %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Maitrise élémentaire","Taux CRIT %","DGT CRIT %","ATQ %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Fin du pays des glaces",
+                "id":14001,
+                "data-title":"Briseur de glace",
+                "data":[
+                    "Maitrise élémentaire","Taux CRIT %","DGT CRIT %","ATQ %"
+                ],
+                "data-lore":"Recharge d'énergie : 51.8%"
+            },
+            {
+                "name":"Fierté de Tisseur de givre",
+                "id":14001,
+                "data-title":"Briseur de glace",
+                "data":[
+                    "Maitrise élémentaire","Taux CRIT %","DGT CRIT %","ATQ %"
+                ],
+                "data-lore":"Bonus de DGT Cryo : 46.6%"
+            },
+            {
+                "name":"Écho de l'hiver",
+                "id":14001,
+                "data-title":"Briseur de glace",
+                "data":[
+                    "Maitrise élémentaire","Recharge d'énergie %","DGT CRIT %","ATQ %"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Chongyun":[
+            {
+                "name":"Mémoires du froid",
+                "id":14001,
+                "data-title":"Briseur de glace",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Résolution du Briseur de glace",
+                "id":14001,
+                "data-title":"Briseur de glace",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Montre de poche du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Urne d'argent du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"Bonus de DGT Cryo : 46.6%"
+            },
+            {
+                "name":"Masque du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "ATQ %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Kaeya":[
+            {
+                "name":"Mémoires du froid",
+                "id":14001,
+                "data-title":"Briseur de glace",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Résolution du Briseur de glace",
+                "id":14001,
+                "data-title":"Briseur de glace",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Montre de poche du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Urne d'argent du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"Bonus de DGT Cryo : 46.6%"
+            },
+            {
+                "name":"Masque du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "ATQ %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Diona":[
+            {
+                "name":"Fleur honorifique",
+                "id":15017,
+                "data-title":"Ténacité du Millelithe",
+                "data":[
+                    "Recharge d'énergie %","Taux CRIT %","PV %","ATQ %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume de guerre du Commandant",
+                "id":15017,
+                "data-title":"Ténacité du Millelithe",
+                "data":[
+                    "Recharge d'énergie %","Taux CRIT %","PV %","PV"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Petit matin de la Demoiselle",
+                "id":14004,
+                "data-title":"Amour chéri",
+                "data":[
+                    "Taux CRIT %","PV","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"PV : 46.6%"
+            },
+            {
+                "name":"Loisir de la Demoiselle",
+                "id":14004,
+                "data-title":"Amour chéri",
+                "data":[
+                    "Taux CRIT %","PV","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"PV : 46.6%"
+            },
+            {
+                "name":"Beauté fugace de la Demoiselle",
+                "id":14004,
+                "data-title":"Amour chéri",
+                "data":[
+                    "Taux CRIT %","Recharge d'énergie %","PV","PV %"
+                ],
+                "data-lore":"Bonus de soins : 35.9%"
+            }
+        ],
+        "Eula":[
+            {
+                "name":"Fleur inaltérable",
+                "id":15018,
+                "data-title":"Flamme blême",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume du sage docteur",
+                "id":15018,
+                "data-title":"Flamme blême",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Figé dans le temps",
+                "id":15018,
+                "data-title":"Flamme blême",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Coupe de transcendance",
+                "id":15018,
+                "data-title":"Flamme blême",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Recharge d'énergie %"
+                ],
+                "data-lore":"Bonus de DGT physiques : 58.3%"
+            },
+            {
+                "name":"Masque ricanant",
+                "id":15018,
+                "data-title":"Flamme blême",
+                "data":[
+                    "DGT CRIT %","ATQ %","Recharge d'énergie %","ATQ"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Ayaka":[
+            {
+                "name":"Mémoires du froid",
+                "id":14001,
+                "data-title":"Briseur de glace",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Résolution du Briseur de glace",
+                "id":14001,
+                "data-title":"Briseur de glace",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Fin du pays des glaces",
+                "id":14001,
+                "data-title":"Briseur de glace",
+                "data":[
+                    "Maitrise élémentaire","Taux CRIT %","DGT CRIT %","Recharge d'énergie %"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Fierté de Tisseur de givre",
+                "id":14001,
+                "data-title":"Briseur de glace",
+                "data":[
+                    "Recharge d'énergie %","Taux CRIT %","DGT CRIT %","ATQ %"
+                ],
+                "data-lore":"Bonus de DGT Cryo : 46.6%"
+            },
+            {
+                "name":"Écho de l'hiver",
+                "id":14001,
+                "data-title":"Briseur de glace",
+                "data":[
+                    "Maitrise élémentaire","Recharge d'énergie %","DGT CRIT %","ATQ %"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Aloy":[
+            {
+                "name":"Mémoires du froid",
+                "id":14001,
+                "data-title":"Briseur de glace",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Résolution du Briseur de glace",
+                "id":14001,
+                "data-title":"Briseur de glace",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Montre de poche du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Urne d'argent du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"Bonus de DGT Cryo : 46.6%"
+            },
+            {
+                "name":"Masque du Noble",
+                "id":15007,
+                "data-title":"Ancien rituel royal",
+                "data":[
+                    "ATQ %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Shenhe":[
+            {
+                "name":"Nostalgie du Gladiateur",
+                "id":15001,
+                "data-title":"Rideau du Gladiateur",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Recharge d'énergie %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Destination de Gladiateur",
+                "id":15001,
+                "data-title":"Rideau du Gladiateur",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","ATQ %","Recharge d'énergie %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Horloge de l'aube",
+                "id":15019,
+                "data-title":"Réminiscence nostalgique",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Cœur plein d'espoir",
+                "id":15019,
+                "data-title":"Réminiscence nostalgique",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","Maitrise élémentaire"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Visage capricieux",
+                "id":15019,
+                "data-title":"Réminiscence nostalgique",
+                "data":[
+                    "Recharge d'énergie %","DGT CRIT %","ATQ %","ATQ"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Layla":[
+            {
+                "name":"Fleur honorifique",
+                "id":15017,
+                "data-title":"Ténacité du Millelithe",
+                "data":[
+                    "Recharge d'énergie %","Taux CRIT %","PV %","ATQ %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume de guerre du Commandant",
+                "id":15017,
+                "data-title":"Ténacité du Millelithe",
+                "data":[
+                    "Recharge d'énergie %","Taux CRIT %","PV %","ATQ %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Cadran solaire doré",
+                "id":15017,
+                "data-title":"Ténacité du Millelithe",
+                "data":[
+                    "Recharge d'énergie %","Taux CRIT %","DGT CRIT %","ATQ %"
+                ],
+                "data-lore":"PV : 46.6%"
+            },
+            {
+                "name":"Coupe du serment",
+                "id":15017,
+                "data-title":"Ténacité du Millelithe",
+                "data":[
+                    "Recharge d'énergie %","Taux CRIT %","DGT CRIT %","ATQ %"
+                ],
+                "data-lore":"PV : 46.6%"
+            },
+            {
+                "name":"Ancien heaume de Général",
+                "id":15017,
+                "data-title":"Ténacité du Millelithe",
+                "data":[
+                    "Recharge d'énergie %","Taux CRIT %","DGT CRIT %","ATQ %"
+                ],
+                "data-lore":"PV : 46.6%"
+            }
+        ],
+        "Mika":[
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            }
+        ],
+        "Freminet":[
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            }
+        ],
+        "Wriothesley":[
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            }
+        ],
+        "Tighnari":[
+            {
+                "name":"Aube de l'orchestre",
+                "id":15003,
+                "data-title":"Bande vagabonde",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Maitrise élémentaire","ATQ %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume de flèche du lyriste",
+                "id":15003,
+                "data-title":"Bande vagabonde",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Maitrise élémentaire","ATQ %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Tombée du rideau",
+                "id":15003,
+                "data-title":"Bande vagabonde",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Maitrise élémentaire","Recharge d'énergie %"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Gourde à cordes du ménestrel",
+                "id":15003,
+                "data-title":"Bande vagabonde",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Maitrise élémentaire","ATQ %"
+                ],
+                "data-lore":"Bonus de DGT Dendro : 46.6%"
+            },
+            {
+                "name":"Haut-de-forme du chef d'orchestre",
+                "id":15003,
+                "data-title":"Bande vagabonde",
+                "data":[
+                    "DGT CRIT %","Maitrise élémentaire","ATQ %","Recharge d'énergie %"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Collei":[
+            {
+                "name":"Voyageur du labyrinthe",
+                "id":15025,
+                "data-title":"Souvenir de forêt",
+                "data":[
+                    "Recharge d'énergie %","Maitrise élémentaire","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Érudit des lianes",
+                "id":15025,
+                "data-title":"Souvenir de forêt",
+                "data":[
+                    "Recharge d'énergie %","Maitrise élémentaire","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Période de perspicacité",
+                "id":15025,
+                "data-title":"Souvenir de forêt",
+                "data":[
+                    "Recharge d'énergie %","Maitrise élémentaire","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"ATQ : 46.6%"
+            },
+            {
+                "name":"Lampe des perdus",
+                "id":15025,
+                "data-title":"Souvenir de forêt",
+                "data":[
+                    "Recharge d'énergie %","Maitrise élémentaire","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"Bonus de DGT Dendro : 46.6%"
+            },
+            {
+                "name":"Couronne de lauriers",
+                "id":15025,
+                "data-title":"Souvenir de forêt",
+                "data":[
+                    "Recharge d'énergie %","Maitrise élémentaire","ATQ %","DGT CRIT %"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Nahida":[
+            {
+                "name":"Voyageur du labyrinthe",
+                "id":15025,
+                "data-title":"Souvenir de forêt",
+                "data":[
+                    "Recharge d'énergie %","Maitrise élémentaire","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Érudit des lianes",
+                "id":15025,
+                "data-title":"Souvenir de forêt",
+                "data":[
+                    "Recharge d'énergie %","Maitrise élémentaire","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Période de perspicacité",
+                "id":15025,
+                "data-title":"Souvenir de forêt",
+                "data":[
+                    "Recharge d'énergie %","ATQ %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"Maîtrise élémentaire : 187"
+            },
+            {
+                "name":"Lampe des perdus",
+                "id":15025,
+                "data-title":"Souvenir de forêt",
+                "data":[
+                    "Recharge d'énergie %","ATQ %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"Maîtrise élémentaire : 187"
+            },
+            {
+                "name":"Couronne de lauriers",
+                "id":15025,
+                "data-title":"Souvenir de forêt",
+                "data":[
+                    "Recharge d'énergie %","ATQ %","Taux CRIT %","DGT CRIT %"
+                ],
+                "data-lore":"Maîtrise élémentaire : 187"
+            }
+        ],
+        "Yaoyao":[
+            {
+                "name":"Voyageur du labyrinthe",
+                "id":15025,
+                "data-title":"Souvenir de forêt",
+                "data":[
+                    "PV %","Recharge d'énergie %","Maitrise élémentaire","ATQ %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Érudit des lianes",
+                "id":15025,
+                "data-title":"Souvenir de forêt",
+                "data":[
+                    "PV %","Recharge d'énergie %","Maitrise élémentaire","ATQ %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Période de perspicacité",
+                "id":15025,
+                "data-title":"Souvenir de forêt",
+                "data":[
+                    "Recharge d'énergie %","Maitrise élémentaire","ATQ %","Taux CRIT %"
+                ],
+                "data-lore":"PV : 46.6%"
+            },
+            {
+                "name":"Lampe des perdus",
+                "id":15025,
+                "data-title":"Souvenir de forêt",
+                "data":[
+                    "Recharge d'énergie %","Maitrise élémentaire","ATQ %","Taux CRIT %"
+                ],
+                "data-lore":"PV : 46.6%"
+            },
+            {
+                "name":"Couronne de lauriers",
+                "id":15025,
+                "data-title":"Souvenir de forêt",
+                "data":[
+                    "Recharge d'énergie %","Maitrise élémentaire","ATQ %","Taux CRIT %"
+                ],
+                "data-lore":"Bonus de soins : 35.9%"
+            }
+        ],
+        "Alhaitham":[
+            {
+                "name":"Fleur d'acier rêveuse",
+                "id":15026,
+                "data-title":"Rêve doré",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Maitrise élémentaire","ATQ %"
+                ],
+                "data-lore":"PV : 4780"
+            },
+            {
+                "name":"Plume du jugement",
+                "id":15026,
+                "data-title":"Rêve doré",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Maitrise élémentaire","ATQ %"
+                ],
+                "data-lore":"ATQ : 311"
+            },
+            {
+                "name":"Les années dorées",
+                "id":15026,
+                "data-title":"Rêve doré",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Recharge d'énergie %","ATQ %"
+                ],
+                "data-lore":"Maîtrise élémentaire : 187"
+            },
+            {
+                "name":"Festin final de miel",
+                "id":15026,
+                "data-title":"Rêve doré",
+                "data":[
+                    "Taux CRIT %","DGT CRIT %","Maitrise élémentaire","ATQ %"
+                ],
+                "data-lore":"Bonus de DGT Dendro : 46.6%"
+            },
+            {
+                "name":"L'ombre du roi des sables",
+                "id":15026,
+                "data-title":"Rêve doré",
+                "data":[
+                    "DGT CRIT %","ATQ %","Maitrise élémentaire","Recharge d'énergie %"
+                ],
+                "data-lore":"Taux CRIT : 31.1%"
+            }
+        ],
+        "Kirara":[
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            }
+        ],
+        "Kaveh":[
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            }
+        ],
+        "Baizhu":[
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
+            },
+            {
+                "name":"",
+                "id":15004,
+                "data-title":"",
+                "data":[
+                    
+                ],
+                "data-lore":""
             }
         ]
     }
