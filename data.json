@@ -1,12 +1,13 @@
 {
     "elements" : {
-        "geo" :["Noelle","Ningguang","Zhongli","Albedo","Gorou","Itto","Yun-Jin"],
-        "electro" : ["Razor","Fischl","Beidou","Lisa","Keqing","Baal","Sara","Yae","Shinobu","Dori","Cyno"],
-        "anemo" : ["Xiao","Venti","Sucrose","Jean","Kazuha","Sayu","Heizou","Nomade","Faruzan","Lynette"],
-        "feu" : ["Xiangling","Klee","Diluc","Bennett","Amber","Xinyan","Hu Tao","Yanfei","Yoimiya","Thomas","Dehya","Lyney"],
-        "glace" : ["Chongyun","Kaeya","Qiqi","Diona","Ganyu","Eula","Ayaka","Aloy","Shenhe","Rosalia","Layla","Mika","Freminet","Wriothesley"],
-        "eau" : ["Xingqiu","Barbara","Mona","Tartaglia","Kokomi","Ayato","Yelan","Nilou","Candace","Neuvillette"],
-        "dendro" : ["Tighnari","Collei","Nahida","Yaoyao","Alhaitham", "Kirara","Kaveh","Baizhu"]
+        "25" :["elf1","elf2","mommy","mommy2"],
+        "50" : [],
+        "75" : [],
+        "100" : [],
+        "150" : [],
+        "200" : [],
+        "250" : [],
+        "300" : []
     },
     "Elevation" : {
         "Main" : {
